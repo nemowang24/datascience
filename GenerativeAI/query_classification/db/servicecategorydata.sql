@@ -1,0 +1,15 @@
+INSERT INTO servicecategory (firstcategory, secondcategory) VALUES ('Billing', 'Unsubscribe or upgrade');
+INSERT INTO servicecategory (firstcategory, secondcategory) VALUES ('Billing', 'Add a payment method');
+INSERT INTO servicecategory (firstcategory, secondcategory) VALUES ('Billing', 'Explanation for charge');
+INSERT INTO servicecategory (firstcategory, secondcategory) VALUES ('Billing', 'Dispute a charge');
+INSERT INTO servicecategory (firstcategory, secondcategory) VALUES ('Technical Support', 'General troubleshotting');
+INSERT INTO servicecategory (firstcategory, secondcategory) VALUES ('Technical Support', 'Device Compatibility');
+INSERT INTO servicecategory (firstcategory, secondcategory) VALUES ('Technical Support', 'Software updates');
+INSERT INTO servicecategory (firstcategory, secondcategory) VALUES ('Account Management', 'Password reset');
+INSERT INTO servicecategory (firstcategory, secondcategory) VALUES ('Account Management', 'Update personal information');
+INSERT INTO servicecategory (firstcategory, secondcategory) VALUES ('Account Management', 'Close account');
+INSERT INTO servicecategory (firstcategory, secondcategory) VALUES ('Account Management', 'Account security');
+INSERT INTO servicecategory (firstcategory, secondcategory) VALUES ('General Inquiry', 'Product information');
+INSERT INTO servicecategory (firstcategory, secondcategory) VALUES ('General Inquiry', 'Pricing');
+INSERT INTO servicecategory (firstcategory, secondcategory) VALUES ('General Inquiry', 'Feedback');
+INSERT INTO servicecategory (firstcategory, secondcategory) VALUES ('General Inquiry', 'Speak to a human');

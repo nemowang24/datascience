@@ -1,0 +1,6572 @@
+1
+00:00:06,700 --> 00:00:14,440
+okay let's start now first everybody I
+want you to open the open the canvas and
+
+2
+00:00:14,440 --> 00:00:22,180
+go to the home page
+
+3
+00:00:22,180 --> 00:00:25,590
+make sure you read the syllabus so the
+requirement is on the syllabus this
+
+4
+00:00:25,590 --> 00:00:29,000
+particular course for
+
+5
+00:00:29,000 --> 00:00:34,840
+for the computational foundations we
+require everybody there are homeworks
+
+6
+00:00:34,840 --> 00:00:40,680
+there are quizzes
+
+7
+00:00:40,680 --> 00:00:46,280
+will be projects and if the due date is
+specified you should submit before the due
+
+8
+00:00:46,280 --> 00:00:51,880
+date and only in
+
+9
+00:00:51,880 --> 00:00:55,230
+case that is uncontrollable say if you
+have a special case you need to send your
+
+10
+00:00:55,230 --> 00:00:58,580
+note and say
+
+11
+00:00:58,580 --> 00:01:03,360
+if you get sick get the get the say
+doctors or your your relatives
+
+12
+00:01:03,360 --> 00:01:08,140
+somebody can can validate your
+
+13
+00:01:08,140 --> 00:01:11,850
+situation and so that's special case
+otherwise you should be on time that is
+
+14
+00:01:11,850 --> 00:01:15,560
+one thing the other
+
+15
+00:01:15,560 --> 00:01:21,850
+thing is what of course we are going to
+have mostly using programming of
+
+16
+00:01:21,850 --> 00:01:28,140
+Python and you can use
+
+17
+00:01:28,580 --> 00:01:32,670
+chat GPT or other language models AI to
+assist your learning but you cannot
+
+18
+00:01:32,670 --> 00:01:36,760
+just copy and paste
+
+19
+00:01:36,760 --> 00:01:40,070
+submit your homework as whatever
+whatever you have see if you have a
+
+20
+00:01:40,070 --> 00:01:43,380
+problem you really cannot solve
+
+21
+00:01:43,380 --> 00:01:46,640
+it and you ask the chat GPT to help you
+that is fine and after you get the result
+
+22
+00:01:46,640 --> 00:01:49,900
+after you get
+
+23
+00:01:49,900 --> 00:01:53,350
+some answer you write down because this
+is not originally you make you think
+
+24
+00:01:53,350 --> 00:01:56,800
+from from your by
+
+25
+00:01:58,580 --> 00:02:03,200
+you provide the reference say okay if
+you go to chat GPT or other other let's
+
+26
+00:02:03,200 --> 00:02:07,820
+see this any other
+
+27
+00:02:08,620 --> 00:02:15,360
+any other uh model it allows you to
+share so uh tell me
+
+28
+00:02:18,120 --> 00:02:22,960
+uh uh let's see merge sort this is the
+
+29
+00:02:29,340 --> 00:02:36,480
+okay let's see this and once you have that
+uh result
+
+30
+00:02:38,480 --> 00:02:44,920
+then there is always a button to
+share so go to the share button
+
+31
+00:03:08,200 --> 00:03:11,210
+okay I will give you the one example of
+doing that uh every every model has it
+
+32
+00:03:11,210 --> 00:03:14,220
+it's at a
+
+33
+00:03:14,220 --> 00:03:17,900
+different place so once you're shared
+it everybody can can see this so the
+
+34
+00:03:17,900 --> 00:03:21,580
+purpose is to have the
+
+35
+00:03:21,580 --> 00:03:24,780
+whole dialogue you are not just directly
+asking the result uh asking the the
+
+36
+00:03:24,780 --> 00:03:27,980
+answer so
+
+37
+00:03:28,580 --> 00:03:31,830
+um you should not copy the problem and
+ask chat GPT to do it for you and then
+
+38
+00:03:31,830 --> 00:03:35,080
+you get answer you
+
+39
+00:03:35,080 --> 00:03:38,700
+can ask this part please explain and
+then you work on from there that is fine
+
+40
+00:03:38,700 --> 00:03:42,320
+then the whole dialogue
+
+41
+00:03:42,320 --> 00:03:44,990
+we will show that okay that's the
+purpose of doing that I will give you
+
+42
+00:03:44,990 --> 00:03:47,660
+a concrete example for this
+
+43
+00:03:47,660 --> 00:03:52,040
+uh they changed the the uh uh cloud change
+the uh button for that I will I will
+
+44
+00:03:52,040 --> 00:03:56,420
+get that later on and
+
+45
+00:03:58,580 --> 00:04:01,590
+office hour for this course, it will be
+Thursday. So we have the Tuesday and
+
+46
+00:04:01,590 --> 00:04:04,600
+the Thursday. So
+
+47
+00:04:05,540 --> 00:04:07,910
+Thursday afternoon, right after
+the class, it is working hour. You can
+
+48
+00:04:07,910 --> 00:04:10,280
+go to my office
+
+49
+00:04:10,280 --> 00:04:14,320
+for questions. If you have a question
+during the class, if we can do it in
+
+50
+00:04:14,320 --> 00:04:18,360
+the class, we
+
+51
+00:04:18,360 --> 00:04:21,350
+will do it. Normally, if it is very
+personal, we want you to go to the office.
+
+52
+00:04:21,350 --> 00:04:24,340
+If everybody
+
+53
+00:04:24,340 --> 00:04:27,470
+has a similar question, then we do it in
+the class. And before the class,
+
+54
+00:04:27,470 --> 00:04:30,600
+normally, like
+
+55
+00:04:30,600 --> 00:04:33,060
+when I do the preparation, you come to
+ask me the questions, that is not a
+
+56
+00:04:33,060 --> 00:04:35,520
+good time
+
+57
+00:04:35,520 --> 00:04:38,500
+because my mind is not there. I need
+to set up everything. So after the
+
+58
+00:04:38,500 --> 00:04:41,480
+class, right?
+
+59
+00:04:41,620 --> 00:04:46,740
+So this course will cover three parts.
+Assuming everybody already has some
+
+60
+00:04:46,740 --> 00:04:51,860
+foundational skills
+
+61
+00:04:51,860 --> 00:04:53,340
+for programming.
+
+62
+00:04:54,340 --> 00:04:57,390
+And then we will go over the Python
+program. However, we will just not
+
+63
+00:04:57,390 --> 00:05:00,440
+go with the very
+
+64
+00:05:00,440 --> 00:05:03,550
+basic part. That part is your own job.
+You need to make up. If you didn't do
+
+65
+00:05:03,550 --> 00:05:06,660
+any Python
+
+66
+00:05:06,660 --> 00:05:09,420
+before, then you need to make it up. I
+will give you some resources. And
+
+67
+00:05:09,420 --> 00:05:12,180
+then after that,
+
+68
+00:05:12,420 --> 00:05:16,130
+we are going over for the first two
+weeks, the object -oriented programming
+
+69
+00:05:16,130 --> 00:05:19,840
+with Python,
+
+70
+00:05:20,000 --> 00:05:24,140
+which means we are going to cover with the
+Python.
+
+71
+00:05:24,140 --> 00:05:27,080
+Python class, Python objects, and
+user-defined class and objects and
+
+72
+00:05:27,080 --> 00:05:30,020
+stuff like that because
+
+73
+00:05:30,020 --> 00:05:34,480
+that is the major application and we are
+going to use later on when you do the
+
+74
+00:05:34,480 --> 00:05:38,940
+machine learning
+
+75
+00:05:38,940 --> 00:05:42,670
+and other packages. So that is the
+big part. And then we will also extend
+
+76
+00:05:42,670 --> 00:05:46,400
+this for doing
+
+77
+00:05:46,400 --> 00:05:49,720
+the data structure and the algorithms.
+You will see we will use a lot of the
+
+78
+00:05:49,720 --> 00:05:53,040
+Python class.
+
+79
+00:05:54,140 --> 00:05:59,760
+And the object and stuff. So for the
+algorithms. So we do the two weeks for the
+
+80
+00:05:59,760 --> 00:06:05,380
+OOP. And then
+
+81
+00:06:05,380 --> 00:06:09,590
+the remaining part mostly will be like
+10 weeks. We will be talking about
+
+82
+00:06:09,590 --> 00:06:13,800
+theizzegtrichter
+
+83
+00:06:15,000 --> 00:06:18,460
+and algorithms. This is the key part.And
+finally, we will go quickly over
+
+84
+00:06:18,460 --> 00:06:21,920
+the very basic foundational
+
+85
+00:06:21,920 --> 00:06:22,800
+skills.
+
+86
+00:06:22,980 --> 00:06:23,420
+Okay.
+
+87
+00:06:23,600 --> 00:06:24,120
+Okay.
+
+88
+00:06:24,120 --> 00:06:27,780
+database, mostly it will be SQL. Okay,
+that's the outline of this course.
+
+89
+00:06:27,780 --> 00:06:31,440
+So today, I want
+
+90
+00:06:31,440 --> 00:06:35,940
+everybody just go to your Canvas. So I
+have an announcement here. Go to the
+
+91
+00:06:35,940 --> 00:06:40,440
+announcement
+
+92
+00:06:40,440 --> 00:06:46,120
+and see the class materials. We have the
+strict rule for the class. During the
+
+93
+00:06:46,120 --> 00:06:51,800
+class, when
+
+94
+00:06:51,800 --> 00:06:54,710
+I say everybody, you can use
+laptop, that's okay, you use laptop. If I
+
+95
+00:06:54,710 --> 00:06:57,620
+say close laptop
+
+96
+00:06:57,620 --> 00:07:00,750
+and we want to do something that you
+should do on the paper, then you
+
+97
+00:07:00,750 --> 00:07:03,880
+should not use laptop.
+
+98
+00:07:04,220 --> 00:07:08,310
+And throughout the class, you
+should not use phone. You can
+
+99
+00:07:08,310 --> 00:07:12,400
+use tablet to take notes, but
+
+100
+00:07:12,400 --> 00:07:13,820
+do not use phone. Okay?
+
+101
+00:07:20,540 --> 00:07:21,780
+Okay, I think that's it.
+
+102
+00:07:21,800 --> 00:07:24,480
+I think we should spend a few minutes
+first because this is the first class.
+
+103
+00:07:24,480 --> 00:07:27,160
+Everybody
+
+104
+00:07:27,160 --> 00:07:29,910
+wants to introduce yourself a
+little bit so everybody knows each other.
+
+105
+00:07:29,910 --> 00:07:32,660
+Starting from
+
+106
+00:07:33,340 --> 00:07:38,520
+Wang Huan. Yeah. Introduce yourselves.
+Yeah, yeah, turn around. Turn around to
+
+107
+00:07:38,520 --> 00:07:43,700
+the classmates.
+
+108
+00:07:45,780 --> 00:07:51,780
+So your name, where you're from, and your
+background. Anything that you want to say.
+
+109
+00:07:51,780 --> 00:07:55,120
+Anything that is, get your classmates to
+know about you.
+
+110
+00:08:21,780 --> 00:08:23,300
+And her name, do she have a number?
+
+111
+00:08:23,300 --> 00:08:25,040
+And your students?
+
+112
+00:08:28,840 --> 00:08:32,180
+Yeah do they know all the questions?
+
+113
+00:08:32,260 --> 00:08:32,660
+No.
+
+114
+00:08:32,700 --> 00:08:33,680
+No, got them already.
+
+115
+00:08:36,000 --> 00:08:36,840
+Okay.
+
+116
+00:09:22,240 --> 00:09:26,520
+okay thank you and my
+
+117
+00:09:51,780 --> 00:09:57,080
+okay thank you long way
+
+118
+00:10:21,840 --> 00:10:23,120
+okay thank you
+
+119
+00:10:51,780 --> 00:11:02,680
+thank you
+
+120
+00:11:21,780 --> 00:11:28,500
+um
+
+121
+00:11:54,420 --> 00:11:55,500
+Okay, thank you.
+
+122
+00:11:56,440 --> 00:12:03,140
+Have you have any other programming
+language skills, any experience before?
+
+123
+00:12:04,420 --> 00:12:04,980
+Okay.
+
+124
+00:12:06,220 --> 00:12:07,600
+Can you spell your name?
+
+125
+00:12:08,220 --> 00:12:09,520
+How do you spell your name?
+
+126
+00:12:09,920 --> 00:12:11,520
+Your name is not here.
+
+127
+00:12:11,640 --> 00:12:13,420
+Your name is not on Canvas yet.
+
+128
+00:12:14,420 --> 00:12:15,460
+So make sure you go.
+
+129
+00:12:20,620 --> 00:12:23,000
+No, no, no, no, that's, that's Wayne.
+
+130
+00:12:27,020 --> 00:12:29,080
+Oh, me, okay, yeah.
+
+131
+00:12:30,400 --> 00:12:34,600
+Oh, I'm confused because I always thought
+me is a boy.
+
+132
+00:12:35,980 --> 00:12:36,900
+It can be.
+
+133
+00:12:37,680 --> 00:12:38,960
+Yeah, all right.
+
+134
+00:12:39,300 --> 00:12:40,520
+And, hi.
+
+135
+00:12:41,220 --> 00:12:41,780
+.
+
+136
+00:12:42,360 --> 00:12:42,920
+.
+
+137
+00:12:53,680 --> 00:12:56,600
+.
+
+138
+00:12:56,600 --> 00:13:00,280
+.
+
+139
+00:13:00,280 --> 00:13:01,740
+.
+
+140
+00:13:01,740 --> 00:13:01,920
+.
+
+141
+00:13:01,920 --> 00:13:05,360
+.
+
+142
+00:13:05,360 --> 00:13:05,460
+.
+
+143
+00:13:05,460 --> 00:13:08,160
+.
+
+144
+00:13:08,160 --> 00:13:09,820
+.
+
+145
+00:13:09,820 --> 00:13:11,860
+.
+
+146
+00:13:11,860 --> 00:13:12,000
+.
+
+147
+00:13:12,000 --> 00:13:12,080
+.
+
+148
+00:13:12,080 --> 00:13:12,120
+.
+
+149
+00:13:12,120 --> 00:13:13,320
+.
+
+150
+00:13:21,280 --> 00:13:22,200
+.
+
+151
+00:13:27,140 --> 00:13:28,060
+.
+
+152
+00:13:28,060 --> 00:13:28,160
+.
+
+153
+00:13:28,160 --> 00:13:28,280
+.
+
+154
+00:13:28,280 --> 00:13:29,040
+.
+
+155
+00:13:29,040 --> 00:13:29,140
+.
+
+156
+00:13:29,140 --> 00:13:29,560
+.
+
+157
+00:13:29,560 --> 00:13:30,020
+.
+
+158
+00:13:30,020 --> 00:13:30,580
+.
+
+159
+00:13:34,520 --> 00:13:35,440
+.
+
+160
+00:13:35,440 --> 00:13:35,500
+.
+
+161
+00:13:35,500 --> 00:13:35,540
+.
+
+162
+00:13:38,400 --> 00:13:39,320
+.
+
+163
+00:13:39,320 --> 00:13:55,880
+. .
+
+164
+00:13:55,880 --> 00:13:57,440
+.
+
+165
+00:13:57,440 --> 00:13:58,580
+.
+
+166
+00:13:58,580 --> 00:13:58,860
+.
+
+167
+00:13:58,860 --> 00:13:59,500
+.
+
+168
+00:13:59,500 --> 00:14:00,820
+.
+
+169
+00:14:00,820 --> 00:14:01,040
+.
+
+170
+00:14:09,320 --> 00:14:19,050
+All right, thank you about a little
+bit of myself, my name is Jen Chi and I
+
+171
+00:14:19,050 --> 00:14:19,050
+graduated from University of
+Chicago with a PhD in atmospheric
+
+172
+00:14:19,050 --> 00:14:19,050
+science, so I have a science background,
+then after graduation my most of my job
+
+173
+00:14:19,050 --> 00:14:28,780
+is in the research.
+
+174
+00:14:30,220 --> 00:14:35,940
+I work at NASA jet propulsion
+laboratory in California and then.
+
+175
+00:14:35,940 --> 00:14:43,370
+And late in later I've been there for
+15 years I work at also in another
+
+176
+00:14:43,370 --> 00:14:43,370
+company called the region, which is the
+company making missiles for the Defense
+
+177
+00:14:43,370 --> 00:14:50,800
+contract.
+
+178
+00:14:51,100 --> 00:14:58,190
+They also work with NASA so my my most
+research work is in the earth sciences
+
+179
+00:14:58,190 --> 00:15:05,280
+atmospheric science and research topics,
+including Mars oceans.
+
+180
+00:15:05,940 --> 00:15:14,760
+And earth atmosphere, then the the
+in later years, so the shifting of
+
+181
+00:15:14,760 --> 00:15:14,760
+the research, this is physical
+shifting has there's a trend before
+
+182
+00:15:14,760 --> 00:15:23,580
+you have the physical models, so you have.
+
+183
+00:15:24,580 --> 00:15:29,860
+You have the newton's function equations
+define your models, how the particles
+
+184
+00:15:29,860 --> 00:15:35,140
+moves hard atmosphere move the oceans, how
+the current moves and then.
+
+185
+00:15:35,940 --> 00:15:41,720
+Later on, this is not enough, then that's
+about 10 years ago.
+
+186
+00:15:42,880 --> 00:15:49,810
+You want to find out the principles or
+patterns from your data, so that is how
+
+187
+00:15:49,810 --> 00:15:56,740
+emerge how the data science emerged in
+every scientific area, and this is.
+
+188
+00:15:57,440 --> 00:16:00,960
+In what I have worked at there, and so
+that is the model you use the statistical
+
+189
+00:16:00,960 --> 00:16:04,480
+method to model.
+
+190
+00:16:05,940 --> 00:16:12,080
+Your data and try to find out a
+patterns, and so that is the the the way I
+
+191
+00:16:12,080 --> 00:16:12,080
+got into the data science and the at the
+very beginning, there's no term called
+
+192
+00:16:12,080 --> 00:16:18,220
+the data science and.
+
+193
+00:16:19,380 --> 00:16:27,200
+In 2018 one one fit in college establish I
+came here, I joined a fit in and I also
+
+194
+00:16:27,200 --> 00:16:27,200
+worked at another pharmaceutical
+company called the Merck, which is the
+
+195
+00:16:27,200 --> 00:16:35,020
+number four pharmaceutical company United
+States.
+
+196
+00:16:35,940 --> 00:16:38,080
+And so I'm doing I did some.
+
+197
+00:16:39,260 --> 00:16:42,920
+Statistical work for consulting at
+that company.
+
+198
+00:16:44,580 --> 00:16:46,640
+So for this course.
+
+199
+00:16:47,940 --> 00:16:55,600
+We are going to emphasize on the
+foundational skills and knowledge and
+
+200
+00:16:55,600 --> 00:16:55,600
+we are going to use a lot of projects,
+so you, you are going to have a hands
+
+201
+00:16:55,600 --> 00:17:03,260
+on experience so mostly programming but.
+
+202
+00:17:03,780 --> 00:17:05,700
+The first thing is for.
+
+203
+00:17:05,700 --> 00:17:16,470
+For those of you who did not program in
+Python very much some of you have some
+
+204
+00:17:16,470 --> 00:17:16,470
+experience before, but some of you
+complete do not have any background,
+
+205
+00:17:16,470 --> 00:17:16,470
+the first thing is this open this
+announcement go to this Kaggle there
+
+206
+00:17:16,470 --> 00:17:27,240
+is a short tutorial for Python.
+
+207
+00:17:28,820 --> 00:17:31,280
+And so now everybody follow me.
+
+208
+00:17:31,960 --> 00:17:35,160
+Kaggle is a platform for data science.
+
+209
+00:17:36,480 --> 00:17:42,920
+They provide a free running environment so
+everybody can run a code in there and they
+
+210
+00:17:42,920 --> 00:17:49,360
+also offer competitions in data
+science, so it is prized competition and.
+
+211
+00:17:49,940 --> 00:17:56,850
+There are some other competition
+that is no price, but the most of the
+
+212
+00:17:56,850 --> 00:17:56,850
+students many students worldwide join the
+competition to form the skills from
+
+213
+00:17:56,850 --> 00:18:03,760
+the skills for for the data science.
+
+214
+00:18:04,200 --> 00:18:05,580
+And we are going to.
+
+215
+00:18:05,700 --> 00:18:11,060
+Also encourage everybody to attend this
+and we will pick some of the project
+
+216
+00:18:11,060 --> 00:18:16,420
+ask you to do it right and then so let's
+let's try this.
+
+217
+00:18:17,280 --> 00:18:26,030
+Once you go there once you once you open
+this make sure you're logging Okay, I
+
+218
+00:18:26,030 --> 00:18:26,030
+already logged in so once you log in you
+will you will be you just use your Google
+
+219
+00:18:26,030 --> 00:18:26,030
+account, you can use your school account
+use your school account as your Google
+
+220
+00:18:26,030 --> 00:18:34,780
+account login.
+
+221
+00:18:35,700 --> 00:18:39,640
+Once you login you can run it
+otherwise you can only do it it is very
+
+222
+00:18:39,640 --> 00:18:43,580
+important in data science do not Read and
+
+223
+00:18:44,900 --> 00:18:53,100
+Watch that is not enough that's only
+half of the learning you have to do it
+
+224
+00:18:53,100 --> 00:18:53,100
+hands on you have to do it okay once you
+see this, this is this is interactive So
+
+225
+00:18:53,100 --> 00:19:01,300
+this is notebook you can run and
+notebook has the advantage you can.
+
+226
+00:19:01,920 --> 00:19:05,480
+Not only have the text, you can have
+images, you can.
+
+227
+00:19:05,480 --> 00:19:09,150
+have the code embedded over there. So in
+this case, let's see, I will just
+
+228
+00:19:09,150 --> 00:19:12,820
+quickly go over
+
+229
+00:19:12,820 --> 00:19:16,750
+this and the remaining part is your own
+homework. You need to do this. Within
+
+230
+00:19:16,750 --> 00:19:20,680
+the first two
+
+231
+00:19:21,280 --> 00:19:24,510
+weeks, you should finish this, seven
+lessons. So with this, not very long,
+
+232
+00:19:24,510 --> 00:19:27,740
+seven notebooks.
+
+233
+00:19:27,740 --> 00:19:31,630
+Complete this. And then there
+are exercises. There are exercises you
+
+234
+00:19:31,630 --> 00:19:35,520
+can practice.
+
+235
+00:19:35,920 --> 00:19:40,280
+So let me show you the exercise.
+
+236
+00:19:44,140 --> 00:19:50,440
+At the end of the notebook, actually,
+there are exercises at the end.
+
+237
+00:19:52,340 --> 00:19:56,500
+See, your turn. Once you finish
+practice with this,
+
+238
+00:19:56,560 --> 00:19:57,560
+go to your turn.
+
+239
+00:19:57,740 --> 00:20:04,180
+you can do the exercise over there and
+there if you haven't done this so there
+
+240
+00:20:04,180 --> 00:20:09,020
+are some there are some trick
+here you need to go to the you you need
+
+241
+00:20:09,020 --> 00:20:13,860
+to make
+
+242
+00:20:13,860 --> 00:20:20,750
+your own copy of the notebook so
+say here this way you can edit it so
+
+243
+00:20:20,750 --> 00:20:27,640
+make a
+
+244
+00:20:27,640 --> 00:20:35,840
+copy in your own account let me do this
+so click click this three dot make a
+
+245
+00:20:35,840 --> 00:20:43,040
+copy okay now it is in your own account
+now you can add it this you can run it
+
+246
+00:20:43,040 --> 00:20:43,840
+and
+
+247
+00:20:43,860 --> 00:20:46,140
+this only happens once you log in
+okay I'll wait everybody to log in and
+
+248
+00:20:46,140 --> 00:20:48,420
+make a
+
+249
+00:20:48,420 --> 00:20:50,000
+copy and then we could go
+
+250
+00:21:01,560 --> 00:21:04,600
+this one what happens you click on
+
+251
+00:21:21,120 --> 00:21:25,700
+okay everybody first go over there log in
+
+252
+00:21:36,980 --> 00:21:41,880
+no once you're logging in the
+pop-up Google account that you you choose
+
+253
+00:21:41,880 --> 00:21:42,860
+logging as Google
+
+254
+00:21:43,860 --> 00:22:00,040
+okay give me your notebook anybody else
+has a problem sorry oh you mean campus
+
+255
+00:22:00,040 --> 00:22:10,680
+now you use then you use other oh yeah
+then you use the person or email okay we
+
+256
+00:22:10,680 --> 00:22:13,500
+need to open this we need open this
+
+257
+00:22:13,860 --> 00:22:16,440
+So, use your personal Gmail.
+
+258
+00:22:21,380 --> 00:22:23,160
+Everybody get in here?
+
+259
+00:22:25,620 --> 00:22:26,420
+Where's your notebook?
+
+260
+00:22:26,540 --> 00:22:27,260
+Where's your laptop?
+
+261
+00:22:30,600 --> 00:22:32,880
+Okay, so next time.
+
+262
+00:22:34,420 --> 00:22:36,980
+Anybody else has trouble?
+
+263
+00:22:39,280 --> 00:22:39,700
+Ming?
+
+264
+00:22:39,700 --> 00:22:39,780
+Ming?
+
+265
+00:22:41,080 --> 00:22:42,640
+You don't have a laptop?
+
+266
+00:22:43,460 --> 00:22:44,360
+Do you have it?
+
+267
+00:22:46,960 --> 00:22:47,740
+In Duong?
+
+268
+00:22:48,380 --> 00:22:48,900
+Okay.
+
+269
+00:22:56,780 --> 00:22:59,790
+So once you get in there, raise your
+hand if you are here, you are in this
+
+270
+00:22:59,790 --> 00:23:02,800
+stage.
+
+271
+00:23:03,180 --> 00:23:05,300
+Make a copy, no?
+
+272
+00:23:07,020 --> 00:23:08,060
+What happens?
+
+273
+00:23:08,280 --> 00:23:08,920
+What's the problem?
+
+274
+00:23:10,740 --> 00:23:13,140
+What happens if you click on the three
+dots?
+
+275
+00:23:16,380 --> 00:23:17,500
+Yeah, login.
+
+276
+00:23:18,960 --> 00:23:25,820
+And then once you login, say this, this,
+this, click here.
+
+277
+00:23:26,200 --> 00:23:31,100
+So first, once you click, that's three,
+seven lessons, right?
+
+278
+00:23:31,820 --> 00:23:32,860
+Click on this.
+
+279
+00:23:34,740 --> 00:23:36,220
+And then click on this.
+
+280
+00:23:47,840 --> 00:23:49,500
+And then make a copy and edit.
+
+281
+00:23:49,720 --> 00:23:50,140
+Yeah.
+
+282
+00:23:50,240 --> 00:23:50,980
+Click on this.
+
+283
+00:23:51,220 --> 00:23:51,880
+All right.
+
+284
+00:23:51,940 --> 00:23:58,280
+So once you are in there, once you are
+in this, you can, you can see your past
+
+285
+00:23:58,280 --> 00:24:04,620
+notebook
+
+286
+00:24:05,220 --> 00:24:06,160
+by clicking.
+
+287
+00:24:06,160 --> 00:24:12,460
+You can click on your own icon and then
+there is, there is your work.
+
+288
+00:24:12,940 --> 00:24:16,340
+That's list of the notebook you have in
+here.
+
+289
+00:24:16,520 --> 00:24:19,820
+So, but for now you have only one if
+you didn't do this before.
+
+290
+00:24:19,980 --> 00:24:24,760
+So now once you open this, oh, by the way,
+everybody, you should audit the
+
+291
+00:24:24,760 --> 00:24:29,540
+introduction
+
+292
+00:24:29,540 --> 00:24:30,480
+to computing.
+
+293
+00:24:30,660 --> 00:24:34,280
+Anybody who did not go in the morning.
+
+294
+00:24:34,360 --> 00:24:35,600
+That's 830 today.
+
+295
+00:24:35,600 --> 00:24:38,360
+If you didn't go, raise your hand, let me
+know.
+
+296
+00:24:38,720 --> 00:24:39,660
+Who didn't go?
+
+297
+00:24:43,040 --> 00:24:43,540
+Okay.
+
+298
+00:24:43,640 --> 00:24:45,140
+You should go over there.
+
+299
+00:24:45,320 --> 00:24:46,100
+So, okay.
+
+300
+00:24:46,160 --> 00:24:46,700
+You, you are fine.
+
+301
+00:24:46,800 --> 00:24:48,080
+You should go over there.
+
+302
+00:24:49,540 --> 00:24:51,900
+Everything here is taught in that class.
+
+303
+00:24:55,680 --> 00:24:57,500
+You audit for that.
+
+304
+00:24:57,620 --> 00:25:00,440
+You don't, you do not, you do
+not need, you can either audit, but
+
+305
+00:25:00,440 --> 00:25:03,260
+it's preferred audit.
+
+306
+00:25:03,260 --> 00:25:06,730
+Or you can, you can just sit in, but if
+you sit in, you do not have access to
+
+307
+00:25:06,730 --> 00:25:10,200
+Canvas and
+
+308
+00:25:10,200 --> 00:25:12,460
+all the homework and assignment,
+you do not have those.
+
+309
+00:25:12,820 --> 00:25:16,000
+So you want to, you want to at least
+sit in, but it is preferred everybody go
+
+310
+00:25:16,000 --> 00:25:19,180
+and audit
+
+311
+00:25:19,180 --> 00:25:19,420
+this.
+
+312
+00:25:19,880 --> 00:25:23,170
+Unless you have been doing Python a
+lot, a lot in the past, but here,
+
+313
+00:25:23,170 --> 00:25:26,460
+everybody, no,
+
+314
+00:25:26,540 --> 00:25:27,800
+I think everybody should go.
+
+315
+00:25:27,980 --> 00:25:28,440
+All right.
+
+316
+00:25:28,580 --> 00:25:31,800
+So now I'm quickly going to go over,
+over here.
+
+317
+00:25:31,800 --> 00:25:32,880
+See here.
+
+318
+00:25:33,000 --> 00:25:34,920
+Now you have a, you have the code.
+
+319
+00:25:35,120 --> 00:25:36,860
+This is called a code cell.
+
+320
+00:25:37,220 --> 00:25:40,760
+And you have this, this part, this is
+called a text cell.
+
+321
+00:25:41,120 --> 00:25:45,660
+Double click on this, double click
+on this, and you can edit this.
+
+322
+00:25:46,380 --> 00:25:48,480
+So both cells can be edited.
+
+323
+00:25:48,780 --> 00:25:52,960
+And once you are done with, with the
+editing, click on this running button
+
+324
+00:25:52,960 --> 00:25:57,140
+and it becomes
+
+325
+00:25:57,140 --> 00:25:57,500
+this.
+
+326
+00:25:58,700 --> 00:25:59,520
+It's fixed.
+
+327
+00:26:00,200 --> 00:26:00,760
+Yeah.
+
+328
+00:26:00,760 --> 00:26:04,840
+Run over this text cell, then it will
+be fixed.
+
+329
+00:26:05,600 --> 00:26:10,910
+And then for this part, see, this is
+assigned zero to this variable and
+
+330
+00:26:10,910 --> 00:26:16,220
+then make some simple
+
+331
+00:26:16,220 --> 00:26:20,800
+calculation then with some condition and
+the print.
+
+332
+00:26:21,220 --> 00:26:25,840
+So if you want to run this code, just
+click on this, it will run.
+
+333
+00:26:26,100 --> 00:26:28,080
+See here, that's the output.
+
+334
+00:26:28,480 --> 00:26:29,920
+And you can also.
+
+335
+00:26:29,920 --> 00:26:33,240
+You can also modify this.
+
+336
+00:26:33,800 --> 00:26:42,460
+So you can say, you can add something
+to the print.
+
+337
+00:26:42,720 --> 00:26:44,300
+So let's, let me run this again.
+
+338
+00:26:44,460 --> 00:26:45,360
+See here.
+
+339
+00:26:45,480 --> 00:26:45,800
+All right.
+
+340
+00:26:46,320 --> 00:26:52,880
+That's the, so you, what do you want to do
+to learn programming?
+
+341
+00:26:53,220 --> 00:26:58,720
+The best way to learn programming is
+having the code.
+
+342
+00:26:58,720 --> 00:27:00,600
+That is by somebody else.
+
+343
+00:27:00,920 --> 00:27:02,520
+Try to understand this.
+
+344
+00:27:02,720 --> 00:27:04,580
+But how do you understand this?
+
+345
+00:27:04,960 --> 00:27:07,120
+Just play around with it.
+
+346
+00:27:07,320 --> 00:27:09,800
+Try to modify and see what happens.
+
+347
+00:27:10,200 --> 00:27:15,340
+See if your understanding is what you
+expected and what you see.
+
+348
+00:27:15,580 --> 00:27:16,040
+Okay.
+
+349
+00:27:16,080 --> 00:27:17,160
+That's the best way to learn.
+
+350
+00:27:17,400 --> 00:27:18,720
+By, by doing it.
+
+351
+00:27:25,260 --> 00:27:26,980
+And so that is the, the, the,
+the, the, the, the, the, the,
+
+352
+00:27:26,980 --> 00:27:28,700
+the, the, the, the, the, the, the,
+
+353
+00:27:28,700 --> 00:27:32,880
+the, that is the no book for this.
+
+354
+00:27:33,120 --> 00:27:39,480
+And let me quickly go over this because we
+will go some other notebook later on.
+
+355
+00:27:39,640 --> 00:27:44,900
+But for this notebook, if you want to
+add a new cell.
+
+356
+00:27:45,100 --> 00:27:46,280
+So let's see.
+
+357
+00:27:46,460 --> 00:27:47,020
+Here.
+
+358
+00:27:47,580 --> 00:27:50,100
+I don't want to modify this code.
+
+359
+00:27:51,820 --> 00:27:57,180
+Because, once I modify, I forget what is
+the original code if I mess up.
+
+360
+00:27:57,440 --> 00:27:58,600
+I'm not able to.
+
+361
+00:27:58,700 --> 00:28:02,920
+restore so what you can do is you just
+copy the code so command a or control a
+
+362
+00:28:02,920 --> 00:28:07,140
+command a
+
+363
+00:28:07,140 --> 00:28:10,710
+and to copy the code and then you add a
+new cell so you add a new cell so here
+
+364
+00:28:10,710 --> 00:28:14,280
+you add
+
+365
+00:28:14,280 --> 00:28:20,900
+see this plus code add a new cell now you
+can you can paste here
+
+366
+00:28:25,180 --> 00:28:28,850
+copy and paste you can move it up upward
+so let me move that upward all right so
+
+367
+00:28:28,850 --> 00:28:32,520
+now once you
+
+368
+00:28:32,520 --> 00:28:36,170
+do that and then you can modify here so
+let's see I I'm not sure whether or not
+
+369
+00:28:36,170 --> 00:28:39,820
+this would
+
+370
+00:28:39,820 --> 00:28:44,070
+this work let's see greater equal right so
+whether or not this will work
+
+371
+00:28:44,070 --> 00:28:48,320
+okay this will also work
+
+372
+00:28:48,320 --> 00:28:50,660
+right so that's the way you do it just
+
+373
+00:28:50,900 --> 00:28:54,050
+modify it and then so you you can see
+result right away the nice thing about
+
+374
+00:28:54,050 --> 00:28:57,200
+the notebook
+
+375
+00:28:57,200 --> 00:29:01,350
+for this is it is very interactive
+you you'll see the result immediately
+
+376
+00:29:01,350 --> 00:29:05,500
+okay that is one place to
+
+377
+00:29:05,500 --> 00:29:10,700
+learn which is Kaggle another place is
+Google collab I'm going to give you a
+
+378
+00:29:10,700 --> 00:29:15,900
+notebook so
+
+379
+00:29:37,900 --> 00:29:41,040
+I'm going to give you a notebook and
+you need to open this
+
+380
+00:30:00,140 --> 00:30:06,290
+and this notebook is what we are
+going to do today and you should finish
+
+381
+00:30:06,290 --> 00:30:12,440
+the part I which I I deleted
+
+382
+00:30:12,440 --> 00:30:16,160
+some code I want you to fill it up so
+
+383
+00:30:23,200 --> 00:30:24,900
+let me share this overview
+
+384
+00:30:33,300 --> 00:30:35,840
+I'm going to put it on canvas now
+
+385
+00:30:42,460 --> 00:30:46,440
+so this will be class notebook
+
+386
+00:30:49,940 --> 00:30:50,820
+this is
+
+387
+00:30:50,900 --> 00:31:09,720
+the first one all right you should see
+this what do you do with this is a
+
+388
+00:31:09,720 --> 00:31:15,040
+little bit different but very similar
+so click on this make sure you log in with
+
+389
+00:31:15,040 --> 00:31:18,050
+Google account click this and
+you are going to see this you're going
+
+390
+00:31:18,050 --> 00:31:21,060
+to see
+
+391
+00:31:21,060 --> 00:31:28,780
+this and once you have this you also make
+a copy so what do you do so I'll
+
+392
+00:31:28,780 --> 00:31:33,770
+wait everybody open this open
+all right once you open go to file go here
+
+393
+00:31:33,770 --> 00:31:38,760
+go here
+
+394
+00:31:38,760 --> 00:31:41,980
+and save a copy in Drive
+
+395
+00:31:46,600 --> 00:31:54,220
+it will take a few second and open a new
+copy and once you open that this
+
+396
+00:31:54,220 --> 00:32:02,740
+notebook sit in your Google Drive where is
+this this thing will be in your go to
+
+397
+00:32:02,740 --> 00:32:08,220
+your my drive and you are going to see
+this yellow folder this yellow photo
+
+398
+00:32:08,220 --> 00:32:14,500
+called colab notebook it is inside there
+you can move you should okay you
+
+399
+00:32:14,500 --> 00:32:14,680
+should
+
+400
+00:32:14,680 --> 00:32:19,500
+organize all your class notebook into
+some specific folder so for this class
+
+401
+00:32:19,500 --> 00:32:22,820
+make a folder put everything
+in there so it will be easy for you okay
+
+402
+00:32:22,820 --> 00:32:26,140
+everybody
+
+403
+00:32:27,420 --> 00:32:37,420
+made a copy all right so let's go over
+this by object oriented programming it
+
+404
+00:32:37,420 --> 00:32:44,280
+means we are not doing the code line by
+lines we are doing the code that
+
+405
+00:32:44,280 --> 00:32:52,120
+we created by writing words so we are not
+doing the code diye so all these
+
+406
+00:32:52,120 --> 00:32:55,020
+calculations that you did are the code
+that we figured out with Webplugs it's
+
+407
+00:32:55,020 --> 00:32:59,660
+going to help you on how to we should
+refresh the browser when we have our
+
+408
+00:33:01,620 --> 00:33:03,940
+browser so I finished up the instruction
+and let's go to so Goku's が
+
+409
+00:33:03,940 --> 00:33:11,500
+we should be able now to solve x 0.16
+to solve x 0 .17 and obviously the
+
+410
+00:33:11,500 --> 00:33:13,100
+little round boast vídeo계
+
+411
+00:33:13,100 --> 00:33:17,060
+roof and then the doors and then you are
+done.
+
+412
+00:33:18,280 --> 00:33:21,840
+The purpose for this is in when you do
+the module,
+
+413
+00:33:22,820 --> 00:33:28,920
+it will be easy because say you are a
+manager for the software development.
+
+414
+00:33:29,680 --> 00:33:33,680
+Now, if you have the break, break, break,
+
+415
+00:33:34,280 --> 00:33:39,120
+it will be hard to coordinate.
+Now you have the modules.
+
+416
+00:33:39,120 --> 00:33:43,280
+So this group one, you do this module.
+Group two, you do this module.
+
+417
+00:33:43,860 --> 00:33:48,420
+And after that, you assemble this.
+Then for the manager,
+
+418
+00:33:48,620 --> 00:33:51,340
+what you want to pay attention to
+is, let's say I have this wall and the
+
+419
+00:33:51,340 --> 00:33:54,060
+other wall over there,
+
+420
+00:33:54,140 --> 00:33:56,940
+but you need to have some kind of a
+connection, right?
+
+421
+00:33:57,120 --> 00:33:59,280
+So you need to define what is
+the connection between this module and
+
+422
+00:33:59,280 --> 00:34:01,440
+this module,
+
+423
+00:34:01,580 --> 00:34:04,180
+so they can perfectly align together.
+
+424
+00:34:04,540 --> 00:34:07,380
+So they need to talk to each other.
+
+425
+00:34:07,460 --> 00:34:09,100
+And what is it you need to do?
+
+426
+00:34:09,100 --> 00:34:12,020
+You have a similar idea for the
+programming.
+
+427
+00:34:12,300 --> 00:34:17,040
+And in the old days, it is called
+procedure programming.
+
+428
+00:34:17,380 --> 00:34:21,020
+So you just do it line by line or by some
+functions.
+
+429
+00:34:21,320 --> 00:34:26,380
+And then this becomes when the software
+becomes more complicated.
+
+430
+00:34:26,740 --> 00:34:34,620
+And the idea of the modularized
+programming language came out.
+
+431
+00:34:34,820 --> 00:34:37,760
+So that is the object oriented one.
+
+432
+00:34:37,880 --> 00:34:39,020
+And in the,
+
+433
+00:34:39,020 --> 00:34:42,020
+in the case of the Python,
+
+434
+00:34:42,420 --> 00:34:45,800
+we call this thing as class.
+
+435
+00:34:46,140 --> 00:34:49,460
+Okay, what is class? Class is the module
+itself.
+
+436
+00:34:50,340 --> 00:34:53,140
+Class is design of the module.
+
+437
+00:34:53,600 --> 00:34:55,300
+You want to design the wall.
+
+438
+00:34:55,580 --> 00:34:59,980
+So what is your blueprint for the wall?
+
+439
+00:35:00,240 --> 00:35:01,740
+I want to have three windows.
+
+440
+00:35:02,020 --> 00:35:05,900
+So you need to specify on your blueprint
+three windows.
+
+441
+00:35:06,260 --> 00:35:07,700
+You also need to say,
+
+442
+00:35:09,020 --> 00:35:10,920
+what is the other side of the wall?
+
+443
+00:35:11,360 --> 00:35:12,820
+That is your design.
+
+444
+00:35:13,220 --> 00:35:14,620
+Once you have the design,
+
+445
+00:35:14,960 --> 00:35:16,380
+you can produce many,
+
+446
+00:35:16,520 --> 00:35:18,580
+many different walls.
+
+447
+00:35:19,460 --> 00:35:22,540
+That many different walls is a concrete.
+
+448
+00:35:22,720 --> 00:35:23,880
+It is a real wall.
+
+449
+00:35:24,320 --> 00:35:26,100
+Your definition,
+
+450
+00:35:26,460 --> 00:35:27,600
+which is the blueprint,
+
+451
+00:35:27,860 --> 00:35:28,900
+is not a real wall.
+
+452
+00:35:29,100 --> 00:35:30,120
+It is something,
+
+453
+00:35:30,920 --> 00:35:32,080
+it's your design.
+
+454
+00:35:32,760 --> 00:35:34,460
+So the idea for the class,
+
+455
+00:35:34,980 --> 00:35:36,540
+class is a design.
+
+456
+00:35:37,400 --> 00:35:38,260
+It's a blueprint.
+
+457
+00:35:39,020 --> 00:35:39,220
+It's not real.
+
+458
+00:35:40,620 --> 00:35:41,740
+From the class,
+
+459
+00:35:41,920 --> 00:35:44,720
+you can create the real stuff.
+
+460
+00:35:45,580 --> 00:35:46,600
+That is called object.
+
+461
+00:35:46,960 --> 00:35:49,680
+So that's the two key important concept.
+
+462
+00:35:50,140 --> 00:35:51,720
+Number one, class.
+
+463
+00:35:52,260 --> 00:35:53,800
+Class is the blueprint.
+
+464
+00:35:54,500 --> 00:35:56,580
+It's on the paper.
+
+465
+00:35:56,760 --> 00:35:58,280
+Okay, it is not a real thing.
+
+466
+00:35:58,720 --> 00:35:59,680
+On the paper.
+
+467
+00:35:59,780 --> 00:36:01,800
+And once you have the design,
+
+468
+00:36:02,080 --> 00:36:03,300
+you can create,
+
+469
+00:36:04,340 --> 00:36:05,560
+following the design,
+
+470
+00:36:05,680 --> 00:36:07,180
+create the real stuff.
+
+471
+00:36:07,260 --> 00:36:08,320
+That is called object.
+
+472
+00:36:08,320 --> 00:36:08,780
+Okay?
+
+473
+00:36:09,260 --> 00:36:11,100
+So in Python,
+
+474
+00:36:13,080 --> 00:36:14,780
+everything is object.
+
+475
+00:36:16,220 --> 00:36:18,080
+We will see that later on.
+
+476
+00:36:18,160 --> 00:36:19,320
+Everything is object.
+
+477
+00:36:20,040 --> 00:36:21,120
+If it is object,
+
+478
+00:36:21,720 --> 00:36:24,160
+in the object -oriented programming,
+
+479
+00:36:24,600 --> 00:36:27,960
+it means it has a class.
+
+480
+00:36:28,360 --> 00:36:32,060
+It is produced from some blueprint.
+
+481
+00:36:32,380 --> 00:36:34,020
+That blueprint is class.
+
+482
+00:36:34,820 --> 00:36:35,840
+So let's see this.
+
+483
+00:36:37,600 --> 00:36:38,540
+In Python,
+
+484
+00:36:39,120 --> 00:36:40,440
+you can have list.
+
+485
+00:36:40,640 --> 00:36:41,660
+You can have a string.
+
+486
+00:36:41,920 --> 00:36:42,900
+You can have a dictionary.
+
+487
+00:36:44,420 --> 00:36:45,500
+All this is,
+
+488
+00:36:45,660 --> 00:36:46,320
+should,
+
+489
+00:36:46,460 --> 00:36:48,160
+you should learn this from the
+
+490
+00:36:48,760 --> 00:36:50,860
+seven notebooks I just gave you.
+
+491
+00:36:51,020 --> 00:36:52,100
+So you have the list.
+
+492
+00:36:52,200 --> 00:36:52,860
+You have a string.
+
+493
+00:36:53,100 --> 00:36:55,180
+These are the different type of data.
+
+494
+00:36:55,440 --> 00:36:57,180
+And if you do have this,
+
+495
+00:36:57,400 --> 00:36:58,020
+let me,
+
+496
+00:36:58,580 --> 00:36:59,820
+instead of using this,
+
+497
+00:37:00,040 --> 00:37:00,940
+let me use
+
+498
+00:37:02,280 --> 00:37:03,820
+even more concrete.
+
+499
+00:37:04,560 --> 00:37:05,040
+So,
+
+500
+00:37:05,660 --> 00:37:06,220
+now,
+
+501
+00:37:06,940 --> 00:37:07,400
+that's your,
+
+502
+00:37:07,600 --> 00:37:09,140
+I want you to do.
+
+503
+00:37:09,220 --> 00:37:09,660
+Okay, now,
+
+504
+00:37:09,740 --> 00:37:10,540
+copy this.
+
+505
+00:37:10,820 --> 00:37:12,300
+Create a new cell.
+
+506
+00:37:12,920 --> 00:37:13,480
+Now,
+
+507
+00:37:13,540 --> 00:37:17,180
+you want to do something that is called a
+list.
+
+508
+00:37:17,480 --> 00:37:17,780
+Now,
+
+509
+00:37:17,860 --> 00:37:18,860
+in Python,
+
+510
+00:37:18,940 --> 00:37:20,480
+list is this.
+
+511
+00:37:20,600 --> 00:37:22,220
+It's square bracket,
+
+512
+00:37:24,780 --> 00:37:26,640
+now followed by comma.
+
+513
+00:37:26,840 --> 00:37:28,940
+You can put things inside here.
+
+514
+00:37:29,180 --> 00:37:31,380
+It does not have to be numbers.
+
+515
+00:37:31,660 --> 00:37:32,000
+It can,
+
+516
+00:37:32,000 --> 00:37:33,960
+you can have some string.
+
+517
+00:37:33,960 --> 00:37:35,440
+String has to be quoted.
+
+518
+00:37:35,800 --> 00:37:37,360
+Okay, you can mix them together.
+
+519
+00:37:37,600 --> 00:37:38,740
+But it's a list.
+
+520
+00:37:38,880 --> 00:37:40,840
+It's just like a shopping list.
+
+521
+00:37:41,120 --> 00:37:43,260
+So list means object,
+
+522
+00:37:43,440 --> 00:37:43,960
+object,
+
+523
+00:37:44,120 --> 00:37:46,520
+object in ordered sequence.
+
+524
+00:37:46,880 --> 00:37:47,540
+It's a sequence,
+
+525
+00:37:47,740 --> 00:37:48,120
+right?
+
+526
+00:37:48,200 --> 00:37:49,200
+So that is this.
+
+527
+00:37:49,640 --> 00:37:51,020
+Once I have the list,
+
+528
+00:37:51,160 --> 00:37:53,680
+list has a property called class.
+
+529
+00:37:54,380 --> 00:37:54,940
+Okay,
+
+530
+00:37:55,060 --> 00:37:56,620
+that class has a name.
+
+531
+00:37:57,020 --> 00:37:58,320
+What I'm going to,
+
+532
+00:37:58,340 --> 00:38:01,760
+what I'm doing here is create a list.
+
+533
+00:38:02,320 --> 00:38:02,880
+Okay,
+
+534
+00:38:02,880 --> 00:38:03,800
+that's the first part.
+
+535
+00:38:04,220 --> 00:38:06,720
+Create a list.
+
+536
+00:38:07,700 --> 00:38:08,680
+And then,
+
+537
+00:38:08,860 --> 00:38:10,340
+from that list,
+
+538
+00:38:10,560 --> 00:38:12,360
+call its property.
+
+539
+00:38:12,980 --> 00:38:14,940
+Property is like your age,
+
+540
+00:38:15,160 --> 00:38:15,580
+your name,
+
+541
+00:38:15,780 --> 00:38:16,900
+your hair color,
+
+542
+00:38:17,100 --> 00:38:17,780
+your weight,
+
+543
+00:38:17,860 --> 00:38:18,340
+your height.
+
+544
+00:38:18,520 --> 00:38:20,240
+That's your attributes.
+
+545
+00:38:20,740 --> 00:38:21,380
+Now,
+
+546
+00:38:21,420 --> 00:38:21,940
+the class,
+
+547
+00:38:22,220 --> 00:38:25,260
+the object also has these attributes.
+
+548
+00:38:25,660 --> 00:38:27,420
+So one of the attributes is called
+
+549
+00:38:27,420 --> 00:38:28,460
+underscore,
+
+550
+00:38:28,780 --> 00:38:29,700
+underscore class.
+
+551
+00:38:30,720 --> 00:38:31,360
+One,
+
+552
+00:38:31,360 --> 00:38:33,540
+every time you see this underscore,
+
+553
+00:38:33,660 --> 00:38:33,860
+underscore,
+
+554
+00:38:34,120 --> 00:38:37,200
+it means it's built in stuff for Python.
+
+555
+00:38:37,420 --> 00:38:37,940
+Normally,
+
+556
+00:38:38,120 --> 00:38:39,820
+you do not need to worry about this
+
+557
+00:38:40,360 --> 00:38:42,140
+unless you have a special purpose.
+
+558
+00:38:42,660 --> 00:38:45,020
+It is something hiding from the user.
+
+559
+00:38:45,460 --> 00:38:47,640
+We are doing this to showcase
+
+560
+00:38:47,640 --> 00:38:49,840
+so you have a good understanding.
+
+561
+00:38:50,240 --> 00:38:51,720
+What is a class?
+
+562
+00:38:51,960 --> 00:38:54,620
+Why do I see everything is object?
+
+563
+00:38:55,320 --> 00:38:56,860
+So this is object.
+
+564
+00:38:57,600 --> 00:39:00,180
+And what is the blueprint for this?
+
+565
+00:39:00,180 --> 00:39:01,420
+That's class.
+
+566
+00:39:02,120 --> 00:39:04,420
+And this class has a name.
+
+567
+00:39:04,560 --> 00:39:06,320
+Dot name will show.
+
+568
+00:39:06,600 --> 00:39:08,240
+So if you run this,
+
+569
+00:39:08,460 --> 00:39:10,100
+the first line print out.
+
+570
+00:39:10,580 --> 00:39:11,220
+Okay,
+
+571
+00:39:11,300 --> 00:39:14,300
+the first time you start this,
+
+572
+00:39:14,460 --> 00:39:15,260
+see here,
+
+573
+00:39:15,300 --> 00:39:15,560
+connecting,
+
+574
+00:39:15,800 --> 00:39:16,760
+it will take some time.
+
+575
+00:39:17,300 --> 00:39:19,780
+It will allocate a computer for you
+
+576
+00:39:19,780 --> 00:39:20,780
+from Google.
+
+577
+00:39:21,260 --> 00:39:24,840
+So you have a unit of computing devices.
+
+578
+00:39:25,360 --> 00:39:27,800
+You treat this like a real computer.
+
+579
+00:39:28,280 --> 00:39:29,240
+And then,
+
+580
+00:39:29,240 --> 00:39:31,960
+one thing you can do is click here.
+
+581
+00:39:32,460 --> 00:39:33,020
+See,
+
+582
+00:39:33,120 --> 00:39:33,780
+it tells you,
+
+583
+00:39:33,840 --> 00:39:34,600
+click here.
+
+584
+00:39:38,860 --> 00:39:41,960
+It tells you what is the memory
+
+585
+00:39:41,960 --> 00:39:43,980
+and what is the disk you have.
+
+586
+00:39:44,140 --> 00:39:44,780
+So see,
+
+587
+00:39:44,820 --> 00:39:45,980
+I have a 12 gig memory.
+
+588
+00:39:46,380 --> 00:39:48,660
+I only use the one gig.
+
+589
+00:39:48,940 --> 00:39:51,660
+And my disk size is 10,
+
+590
+00:39:51,840 --> 00:39:52,580
+100.
+
+591
+00:39:53,080 --> 00:39:54,460
+I have used 32.
+
+592
+00:39:56,480 --> 00:39:58,920
+I didn't use that much
+
+593
+00:39:58,920 --> 00:40:00,700
+because the 32 is,
+
+594
+00:40:00,920 --> 00:40:02,580
+you need to have the system,
+
+595
+00:40:02,740 --> 00:40:03,400
+you have Python,
+
+596
+00:40:03,600 --> 00:40:04,560
+everything installed there.
+
+597
+00:40:04,700 --> 00:40:06,600
+So that's the pre-installed.
+
+598
+00:40:09,580 --> 00:40:10,700
+So here,
+
+599
+00:40:11,600 --> 00:40:12,780
+this is the class.
+
+600
+00:40:13,280 --> 00:40:15,400
+The class name is list.
+
+601
+00:40:16,320 --> 00:40:16,880
+Okay.
+
+602
+00:40:17,040 --> 00:40:17,600
+Now,
+
+603
+00:40:17,720 --> 00:40:18,640
+if you do this,
+
+604
+00:40:18,740 --> 00:40:19,860
+delete this name.
+
+605
+00:40:20,320 --> 00:40:21,200
+Let's do this.
+
+606
+00:40:21,780 --> 00:40:22,680
+Without this,
+
+607
+00:40:23,240 --> 00:40:24,220
+without this,
+
+608
+00:40:24,400 --> 00:40:25,740
+it will also print.
+
+609
+00:40:26,280 --> 00:40:27,700
+Now it print,
+
+610
+00:40:27,880 --> 00:40:28,160
+say,
+
+611
+00:40:28,920 --> 00:40:29,880
+like this.
+
+612
+00:40:30,140 --> 00:40:31,560
+What does that mean?
+
+613
+00:40:31,720 --> 00:40:34,700
+It means I'm printing an object.
+
+614
+00:40:35,000 --> 00:40:41,300
+This object is belong to a class of list.
+
+615
+00:40:41,780 --> 00:40:42,800
+All right.
+
+616
+00:40:42,860 --> 00:40:45,580
+So that means this thing,
+
+617
+00:40:45,740 --> 00:40:48,360
+it is object.
+
+618
+00:40:48,740 --> 00:40:52,200
+It is the blueprint for it.
+
+619
+00:40:52,280 --> 00:40:53,120
+It is class.
+
+620
+00:40:53,320 --> 00:40:54,920
+That class is this.
+
+621
+00:40:55,660 --> 00:40:57,820
+And similar for this,
+
+622
+00:40:57,820 --> 00:40:58,260
+string,
+
+623
+00:40:58,660 --> 00:41:00,760
+and similar for the dictionary.
+
+624
+00:41:01,180 --> 00:41:04,280
+So let me change this to the concrete
+string.
+
+625
+00:41:04,640 --> 00:41:07,240
+So string is just,
+
+626
+00:41:07,320 --> 00:41:08,200
+just this.
+
+627
+00:41:08,480 --> 00:41:08,800
+Okay.
+
+628
+00:41:09,300 --> 00:41:09,900
+Quote,
+
+629
+00:41:09,940 --> 00:41:11,080
+single quote,
+
+630
+00:41:11,140 --> 00:41:11,700
+double quote,
+
+631
+00:41:11,820 --> 00:41:12,340
+doesn't matter.
+
+632
+00:41:12,920 --> 00:41:13,520
+Quote,
+
+633
+00:41:13,520 --> 00:41:14,180
+and then,
+
+634
+00:41:14,820 --> 00:41:16,500
+put in some string.
+
+635
+00:41:16,700 --> 00:41:17,880
+You can have anything.
+
+636
+00:41:18,080 --> 00:41:18,640
+You can have space.
+
+637
+00:41:19,140 --> 00:41:21,080
+You can have a single quote inside,
+
+638
+00:41:21,340 --> 00:41:22,320
+double quote.
+
+639
+00:41:22,660 --> 00:41:23,580
+And then,
+
+640
+00:41:23,720 --> 00:41:25,060
+that gave you this.
+
+641
+00:41:25,260 --> 00:41:26,820
+That gave you the string.
+
+642
+00:41:26,820 --> 00:41:27,940
+All right.
+
+643
+00:41:28,500 --> 00:41:31,300
+One nice feature for Python is
+
+644
+00:41:31,820 --> 00:41:33,740
+it allows you have the string
+
+645
+00:41:33,740 --> 00:41:35,740
+running multiple lines.
+
+646
+00:41:36,500 --> 00:41:38,160
+So what you do is
+
+647
+00:41:38,820 --> 00:41:40,860
+you have a triple quote
+
+648
+00:41:40,860 --> 00:41:43,400
+starting and ending with triple quote.
+
+649
+00:41:44,740 --> 00:41:46,240
+So everybody do this.
+
+650
+00:41:46,420 --> 00:41:46,640
+Now,
+
+651
+00:41:46,700 --> 00:41:47,700
+triple quote,
+
+652
+00:41:47,900 --> 00:41:51,140
+you can use single triple quote
+
+653
+00:41:51,140 --> 00:41:53,100
+or your double triple quote.
+
+654
+00:41:53,500 --> 00:41:55,040
+And once you do this,
+
+655
+00:41:55,120 --> 00:41:55,700
+you can have
+
+656
+00:41:55,700 --> 00:41:56,300
+all,
+
+657
+00:41:56,680 --> 00:41:58,240
+you can have multiple lines.
+
+658
+00:41:59,060 --> 00:41:59,800
+All right.
+
+659
+00:41:59,800 --> 00:42:00,540
+And then,
+
+660
+00:42:00,600 --> 00:42:02,400
+that will be the same.
+
+661
+00:42:02,780 --> 00:42:04,260
+That still give you the same.
+
+662
+00:42:04,520 --> 00:42:05,880
+So that is the string.
+
+663
+00:42:06,160 --> 00:42:07,520
+And for the dictionary,
+
+664
+00:42:07,760 --> 00:42:09,500
+let's also do something
+
+665
+00:42:10,100 --> 00:42:11,160
+for the dictionary.
+
+666
+00:42:11,580 --> 00:42:13,580
+Dictionary use the curly bracket.
+
+667
+00:42:15,300 --> 00:42:16,680
+Dictionary is like,
+
+668
+00:42:16,780 --> 00:42:18,000
+you look up at the dictionary,
+
+669
+00:42:18,320 --> 00:42:18,620
+right?
+
+670
+00:42:18,740 --> 00:42:19,520
+You have the,
+
+671
+00:42:19,600 --> 00:42:20,160
+let's say,
+
+672
+00:42:20,280 --> 00:42:21,160
+Vietnamese,
+
+673
+00:42:21,400 --> 00:42:21,780
+Chinese.
+
+674
+00:42:22,080 --> 00:42:22,460
+All right.
+
+675
+00:42:22,460 --> 00:42:23,140
+So you have the,
+
+676
+00:42:23,860 --> 00:42:24,980
+in Vietnamese,
+
+677
+00:42:25,700 --> 00:42:26,880
+you have the Vietnamese characters.
+
+678
+00:42:27,320 --> 00:42:28,500
+And for that character,
+
+679
+00:42:28,680 --> 00:42:29,520
+there's the entry.
+
+680
+00:42:29,600 --> 00:42:30,340
+Entry is Chinese.
+
+681
+00:42:30,660 --> 00:42:30,820
+All right.
+
+682
+00:42:30,820 --> 00:42:31,620
+So now,
+
+683
+00:42:31,820 --> 00:42:33,320
+you are going to have some,
+
+684
+00:42:33,440 --> 00:42:33,860
+let's see,
+
+685
+00:42:35,160 --> 00:42:35,700
+let's,
+
+686
+00:42:38,080 --> 00:42:40,260
+I'm not able to type Vietnamese,
+
+687
+00:42:40,380 --> 00:42:41,500
+let me type Chinese.
+
+688
+00:42:41,800 --> 00:42:42,320
+So,
+
+689
+00:42:44,360 --> 00:42:47,200
+I type Vietnam in Chinese.
+
+690
+00:42:47,580 --> 00:42:48,420
+And then,
+
+691
+00:42:48,500 --> 00:42:49,700
+I will say,
+
+692
+00:42:49,800 --> 00:42:52,140
+translate of this is,
+
+693
+00:42:52,320 --> 00:42:53,700
+let's use English.
+
+694
+00:42:53,920 --> 00:42:54,200
+Okay.
+
+695
+00:42:54,420 --> 00:42:54,960
+Then,
+
+696
+00:42:55,700 --> 00:42:56,400
+you are going to have
+
+697
+00:42:56,400 --> 00:42:57,960
+so that is the way you do for,
+
+698
+00:42:58,440 --> 00:42:59,180
+you have many,
+
+699
+00:42:59,280 --> 00:43:00,400
+many entries like this.
+
+700
+00:43:00,900 --> 00:43:03,100
+Each entry is separated by comma.
+
+701
+00:43:03,860 --> 00:43:04,460
+Okay.
+
+702
+00:43:04,520 --> 00:43:04,700
+Now,
+
+703
+00:43:04,700 --> 00:43:04,920
+not,
+
+704
+00:43:04,920 --> 00:43:05,880
+not the inside here.
+
+705
+00:43:06,200 --> 00:43:08,180
+Each entry is separated by,
+
+706
+00:43:08,180 --> 00:43:08,760
+by comma.
+
+707
+00:43:08,880 --> 00:43:09,720
+And now,
+
+708
+00:43:09,800 --> 00:43:11,180
+you can have,
+
+709
+00:43:12,040 --> 00:43:12,640
+say,
+
+710
+00:43:12,760 --> 00:43:14,320
+let's use Uno,
+
+711
+00:43:14,560 --> 00:43:15,900
+which is the Spanish.
+
+712
+00:43:16,320 --> 00:43:19,240
+And I'm going to use one
+
+713
+00:43:19,240 --> 00:43:20,760
+for English.
+
+714
+00:43:20,960 --> 00:43:22,440
+So that's my dictionary.
+
+715
+00:43:22,720 --> 00:43:24,320
+And that is also,
+
+716
+00:43:24,320 --> 00:43:29,340
+So when I do the class with the name, and
+that's it, this.
+
+717
+00:43:30,480 --> 00:43:34,230
+One case thing for learning,
+whether or not you have been doing well in
+
+718
+00:43:34,230 --> 00:43:37,980
+college or not,
+
+719
+00:43:38,200 --> 00:43:40,760
+it is very important to take notes.
+
+720
+00:43:42,360 --> 00:43:43,880
+Why it is important?
+
+721
+00:43:44,200 --> 00:43:48,180
+Taking notes as versus just the listening,
+the difference is when you actively take
+
+722
+00:43:48,180 --> 00:43:52,160
+the
+
+723
+00:43:52,160 --> 00:43:56,040
+notes, instead of just taking the picture,
+okay, that's different.
+
+724
+00:43:56,600 --> 00:43:59,410
+Instead of just taking the picture,
+you not only record what has been
+
+725
+00:43:59,410 --> 00:44:02,220
+taught in the class,
+
+726
+00:44:02,400 --> 00:44:06,700
+you also process all the information in
+your mind, and you make summarize.
+
+727
+00:44:07,340 --> 00:44:09,500
+Because you cannot write every word.
+
+728
+00:44:10,000 --> 00:44:14,760
+You have to get the key information
+processed through your mind actively.
+
+729
+00:44:16,140 --> 00:44:21,420
+I'm not talking just in words.
+
+730
+00:44:21,420 --> 00:44:25,380
+I'm talking based on the data science
+studies.
+
+731
+00:44:25,780 --> 00:44:28,260
+There are many research on this.
+
+732
+00:44:28,500 --> 00:44:31,680
+Students who actively taking notes
+and students who do not, their outcome
+
+733
+00:44:31,680 --> 00:44:34,860
+is very different.
+
+734
+00:44:35,380 --> 00:44:39,370
+Also taking notes by typing on the
+keyboard and taking notes by handwriting,
+
+735
+00:44:39,370 --> 00:44:43,360
+it is also
+
+736
+00:44:43,360 --> 00:44:43,780
+different.
+
+737
+00:44:44,280 --> 00:44:47,720
+Handwriting is more efficient in learning.
+
+738
+00:44:48,040 --> 00:44:51,400
+It activates your brain.
+
+739
+00:44:51,400 --> 00:44:53,500
+It activates your neurons in your mind.
+
+740
+00:44:53,740 --> 00:44:55,060
+So that is different.
+
+741
+00:44:55,200 --> 00:44:58,320
+Because when you write this, when you
+write down a character, it doesn't matter
+
+742
+00:44:58,320 --> 00:45:01,440
+if it
+
+743
+00:45:01,440 --> 00:45:03,120
+is English or Chinese or Vietnamese.
+
+744
+00:45:03,420 --> 00:45:05,720
+You need to get a picture.
+
+745
+00:45:06,100 --> 00:45:12,060
+Your mind is, different part in your mind
+has been activated, okay?
+
+746
+00:45:12,140 --> 00:45:16,270
+It is not just when you're typing, only
+positional related neurons has
+
+747
+00:45:16,270 --> 00:45:20,400
+been activated because
+
+748
+00:45:20,400 --> 00:45:24,600
+there are only 26 keys I typed.
+
+749
+00:45:25,220 --> 00:45:28,860
+But when you write, it is the whole
+picture.
+
+750
+00:45:29,300 --> 00:45:30,540
+That is different.
+
+751
+00:45:32,900 --> 00:45:38,740
+But for the code, you do not, you don't
+have to use the pencil to write.
+
+752
+00:45:39,040 --> 00:45:42,010
+Typing the code is fine because here
+we want to, we want everybody to run the
+
+753
+00:45:42,010 --> 00:45:44,980
+code.
+
+754
+00:45:45,180 --> 00:45:48,000
+You run, you put on the paper, it
+doesn't run.
+
+755
+00:45:48,180 --> 00:45:48,360
+Okay.
+
+756
+00:45:48,360 --> 00:45:50,140
+So that is different.
+
+757
+00:45:50,400 --> 00:45:54,440
+However, for the key part, as I said,
+when I say, what is class?
+
+758
+00:45:54,620 --> 00:45:55,640
+What is the object?
+
+759
+00:45:55,900 --> 00:45:57,740
+What is the relation between class
+and object?
+
+760
+00:45:58,080 --> 00:45:59,060
+What is this?
+
+761
+00:46:00,220 --> 00:46:00,480
+Okay.
+
+762
+00:46:00,500 --> 00:46:02,280
+Let me do a quick check.
+
+763
+00:46:03,980 --> 00:46:06,330
+When you have the dot name and when you
+do not have the dot name, what is the
+
+764
+00:46:06,330 --> 00:46:08,680
+difference?
+
+765
+00:46:09,680 --> 00:46:10,480
+See here.
+
+766
+00:46:10,580 --> 00:46:13,810
+When I have the, without the dot name,
+and here I do have a dot name, what is the
+
+767
+00:46:13,810 --> 00:46:17,040
+difference?
+
+768
+00:46:33,140 --> 00:46:33,580
+Okay.
+
+769
+00:46:33,740 --> 00:46:36,240
+Let me see this again.
+
+770
+00:46:36,360 --> 00:46:39,510
+This is what I just said because if you
+do not take the notes, you just forget it
+
+771
+00:46:39,510 --> 00:46:42,660
+right
+
+772
+00:46:42,660 --> 00:46:42,900
+away.
+
+773
+00:46:43,900 --> 00:46:45,560
+Remember, before I have this.
+
+774
+00:46:45,640 --> 00:46:46,780
+I have this.
+
+775
+00:46:46,780 --> 00:46:49,160
+I have a dot name.
+
+776
+00:46:49,420 --> 00:46:56,220
+So the printout, the printout is, is list.
+
+777
+00:46:56,420 --> 00:46:56,760
+Okay.
+
+778
+00:46:56,800 --> 00:46:57,460
+That's the list.
+
+779
+00:46:58,280 --> 00:47:05,580
+So what I have here is, first this thing,
+this is class object.
+
+780
+00:47:06,100 --> 00:47:06,900
+Which one?
+
+781
+00:47:09,780 --> 00:47:11,480
+It is object.
+
+782
+00:47:11,840 --> 00:47:12,280
+Okay.
+
+783
+00:47:12,460 --> 00:47:14,180
+This is real stuff.
+
+784
+00:47:14,300 --> 00:47:15,060
+It is object.
+
+785
+00:47:15,720 --> 00:47:20,300
+But as I said, in Python, everything is
+object.
+
+786
+00:47:20,560 --> 00:47:24,040
+If it is an object, it will have a
+blueprint.
+
+787
+00:47:24,660 --> 00:47:26,600
+What is the blueprint called?
+
+788
+00:47:27,920 --> 00:47:28,820
+It's a class.
+
+789
+00:47:29,180 --> 00:47:31,440
+So what is the class for this?
+
+790
+00:47:31,660 --> 00:47:37,660
+So I have dot, underscore, underscore,
+plus, no, this is the class of this.
+
+791
+00:47:38,400 --> 00:47:42,140
+However, this thing is another object.
+
+792
+00:47:42,360 --> 00:47:45,040
+It is not a string of a, called a class.
+
+793
+00:47:45,960 --> 00:47:48,720
+So now, this is another object.
+
+794
+00:47:49,700 --> 00:47:51,220
+Is this confusing?
+
+795
+00:47:51,540 --> 00:47:52,500
+This is object.
+
+796
+00:47:53,160 --> 00:47:57,060
+And the object has a attribute.
+
+797
+00:47:57,360 --> 00:47:59,800
+When we have a dot, something, it is an
+attribute.
+
+798
+00:48:00,710 --> 00:48:02,460
+So your name is your attribute.
+
+799
+00:48:03,040 --> 00:48:08,020
+Your hair color, your height, that's your
+attribute.
+
+800
+00:48:08,460 --> 00:48:12,680
+And this, this is attribute of this
+object.
+
+801
+00:48:13,080 --> 00:48:13,220
+Okay.
+
+802
+00:48:13,220 --> 00:48:17,860
+And this attribute reference to something
+else.
+
+803
+00:48:18,760 --> 00:48:21,940
+If this is something else, then it
+is object.
+
+804
+00:48:22,420 --> 00:48:24,760
+Remember in Python, everything is
+object, right?
+
+805
+00:48:24,840 --> 00:48:26,140
+So this is object.
+
+806
+00:48:26,400 --> 00:48:29,720
+We use another object to represent this
+class.
+
+807
+00:48:31,200 --> 00:48:31,760
+Okay.
+
+808
+00:48:31,800 --> 00:48:33,080
+Everybody get the idea?
+
+809
+00:48:33,720 --> 00:48:34,780
+This is object.
+
+810
+00:48:35,400 --> 00:48:36,640
+Object has a class.
+
+811
+00:48:37,260 --> 00:48:40,200
+That class, how do you, how do you see
+that class?
+
+812
+00:48:40,380 --> 00:48:43,200
+That class is also defined as a class.
+
+813
+00:48:43,220 --> 00:48:43,360
+Object.
+
+814
+00:48:43,820 --> 00:48:44,540
+All right.
+
+815
+00:48:44,580 --> 00:48:48,480
+So, if it is object, then it has
+attribute.
+
+816
+00:48:49,100 --> 00:48:52,700
+One attribute is called an underscore,
+underscore, name.
+
+817
+00:48:53,900 --> 00:48:56,320
+That is what you print out here.
+
+818
+00:48:57,740 --> 00:49:02,070
+If you do not have this, by default, if
+you do not have this, by default,
+
+819
+00:49:02,070 --> 00:49:06,400
+Python will
+
+820
+00:49:06,400 --> 00:49:12,000
+try to find out what is the best way
+to describe this object.
+
+821
+00:49:12,000 --> 00:49:16,420
+It has a built -in way to get the string
+because once you print, everything has
+
+822
+00:49:16,420 --> 00:49:20,840
+to be converted
+
+823
+00:49:20,840 --> 00:49:21,760
+into string.
+
+824
+00:49:21,920 --> 00:49:23,460
+String is object, right?
+
+825
+00:49:23,660 --> 00:49:25,520
+So convert everything into string.
+
+826
+00:49:25,740 --> 00:49:28,820
+So now this class is object.
+
+827
+00:49:29,060 --> 00:49:33,500
+I need to convert this into some
+string and then print out.
+
+828
+00:49:33,620 --> 00:49:35,960
+That is, that is what you have.
+
+829
+00:49:36,960 --> 00:49:38,400
+So this is a string.
+
+830
+00:49:38,780 --> 00:49:41,320
+However, once you have that, that means.
+
+831
+00:49:42,000 --> 00:49:46,420
+That special representation for that
+class, okay?
+
+832
+00:49:46,620 --> 00:49:52,860
+And that is the, that is the dot and
+the internal stuff.
+
+833
+00:49:53,300 --> 00:49:55,360
+This is internal, built-in stuff.
+
+834
+00:49:56,220 --> 00:50:00,560
+Another important stuff, another important
+part, part is this.
+
+835
+00:50:00,780 --> 00:50:02,280
+So I have this list.
+
+836
+00:50:02,830 --> 00:50:04,360
+I did the same.
+
+837
+00:50:05,210 --> 00:50:06,600
+I add another class.
+
+838
+00:50:08,360 --> 00:50:10,360
+Remember, I, when I have this.
+
+839
+00:50:10,360 --> 00:50:13,400
+This is the attribute of the list, right?
+
+840
+00:50:15,280 --> 00:50:17,700
+Attribute of the list is another object.
+
+841
+00:50:18,440 --> 00:50:20,760
+So if it is object, it has a class.
+
+842
+00:50:21,180 --> 00:50:23,700
+Now, what is the class of this thing?
+
+843
+00:50:23,900 --> 00:50:25,240
+It also has a class.
+
+844
+00:50:25,980 --> 00:50:27,520
+And what is the class?
+
+845
+00:50:27,780 --> 00:50:29,320
+What is the name for this?
+
+846
+00:50:29,500 --> 00:50:30,660
+It is the type.
+
+847
+00:50:31,740 --> 00:50:32,300
+Okay.
+
+848
+00:50:32,360 --> 00:50:39,540
+When you have class as a list, class as
+a string.
+
+849
+00:50:39,540 --> 00:50:41,260
+Class as a dictionary.
+
+850
+00:50:41,700 --> 00:50:44,980
+All these become one, there's a,
+when you see the class, it is like a
+
+851
+00:50:44,980 --> 00:50:48,260
+parent.
+
+852
+00:50:48,580 --> 00:50:50,600
+Parent can have sons and daughters.
+
+853
+00:50:50,880 --> 00:50:54,640
+Because this is produced from the same
+blueprint, right?
+
+854
+00:50:55,040 --> 00:50:57,640
+So now the parent is the class.
+
+855
+00:50:57,760 --> 00:50:59,120
+That parent is called a type.
+
+856
+00:50:59,500 --> 00:51:01,640
+That is data type.
+
+857
+00:51:02,260 --> 00:51:05,780
+In Python, there are many different data
+types.
+
+858
+00:51:05,960 --> 00:51:07,740
+Each data type is a class.
+
+859
+00:51:07,740 --> 00:51:13,440
+But if you, if you call everything as
+general, it is type.
+
+860
+00:51:13,600 --> 00:51:14,600
+It is data type.
+
+861
+00:51:14,780 --> 00:51:16,440
+So that's why you have this.
+
+862
+00:51:16,500 --> 00:51:17,420
+This is type.
+
+863
+00:51:17,880 --> 00:51:18,560
+Okay.
+
+864
+00:51:18,660 --> 00:51:24,220
+The key thing for this part is everything
+is object.
+
+865
+00:51:25,680 --> 00:51:28,400
+Every object has attribute.
+
+866
+00:51:29,260 --> 00:51:34,100
+If you do dot something, that's access
+to that object.
+
+867
+00:51:34,360 --> 00:51:35,880
+The attribute.
+
+868
+00:51:35,880 --> 00:51:42,860
+That attribute can be an object of
+another class.
+
+869
+00:51:43,520 --> 00:51:44,080
+Okay?
+
+870
+00:51:44,200 --> 00:51:47,920
+So it is object of object.
+
+871
+00:51:48,700 --> 00:51:49,560
+All right?
+
+872
+00:51:49,600 --> 00:51:54,480
+And then, now let's see one example of the
+class now.
+
+873
+00:51:55,820 --> 00:51:56,540
+Okay.
+
+874
+00:51:56,640 --> 00:51:58,320
+Let me pause a little bit here.
+
+875
+00:51:58,560 --> 00:52:03,680
+Make sure everybody okay with the idea
+of object class attribute.
+
+876
+00:52:04,340 --> 00:52:05,680
+Three key things.
+
+877
+00:52:05,780 --> 00:52:05,860
+Okay.
+
+878
+00:52:06,500 --> 00:52:08,360
+One is object class attribute.
+
+879
+00:52:08,940 --> 00:52:11,440
+Make sure you do not mix, do not confuse.
+
+880
+00:52:13,280 --> 00:52:14,100
+Everybody okay?
+
+881
+00:52:15,240 --> 00:52:15,760
+Questions?
+
+882
+00:52:15,980 --> 00:52:16,200
+Yes?
+
+883
+00:52:19,740 --> 00:52:20,260
+Yeah.
+
+884
+00:52:22,160 --> 00:52:26,340
+That's, when I say parent, it
+means, here it means class.
+
+885
+00:52:27,420 --> 00:52:30,700
+So when you have this, what is the
+class of this?
+
+886
+00:52:30,800 --> 00:52:32,460
+This is the class of type.
+
+887
+00:52:34,360 --> 00:52:34,880
+Okay.
+
+888
+00:52:34,880 --> 00:52:38,250
+You can all, if you go everything for
+the class and class on the very, very
+
+889
+00:52:38,250 --> 00:52:41,620
+top, there
+
+890
+00:52:41,620 --> 00:52:45,080
+is one single class that is called object.
+
+891
+00:52:45,560 --> 00:52:46,620
+It's just object.
+
+892
+00:52:46,940 --> 00:52:50,960
+In Python, this object means the parent, a
+grandparent of everything, because
+
+893
+00:52:50,960 --> 00:52:54,980
+everything
+
+894
+00:52:54,980 --> 00:52:55,720
+is object.
+
+895
+00:52:56,840 --> 00:52:57,160
+Okay.
+
+896
+00:52:57,300 --> 00:53:01,500
+So you have the thing like, so now I
+have this, this, and this, and this.
+
+897
+00:53:01,700 --> 00:53:04,860
+So the object for me is, is I object.
+
+898
+00:53:08,220 --> 00:53:08,860
+Right.
+
+899
+00:53:09,100 --> 00:53:09,740
+Yes.
+
+900
+00:53:09,940 --> 00:53:10,400
+Okay.
+
+901
+00:53:12,180 --> 00:53:12,820
+Yeah.
+
+902
+00:53:12,940 --> 00:53:13,700
+It's nested.
+
+903
+00:53:13,900 --> 00:53:16,920
+Every class can have object.
+
+904
+00:53:17,400 --> 00:53:20,440
+Every object must have a class.
+
+905
+00:53:21,320 --> 00:53:21,960
+Yes.
+
+906
+00:53:22,800 --> 00:53:26,850
+If you go for the class of class of class
+of class, go to the top, it is one single
+
+907
+00:53:26,850 --> 00:53:30,900
+object.
+
+908
+00:53:31,180 --> 00:53:33,820
+That object is called, just called object.
+
+909
+00:53:34,160 --> 00:53:34,760
+That's it.
+
+910
+00:53:34,860 --> 00:53:37,320
+So it doesn't go any further.
+
+911
+00:53:37,920 --> 00:53:38,920
+That's built in.
+
+912
+00:53:39,040 --> 00:53:41,060
+That is built in for Python.
+
+913
+00:53:41,680 --> 00:53:42,240
+Okay.
+
+914
+00:53:42,660 --> 00:53:46,090
+In this case, we want to do a quick
+demonstration for the object
+
+915
+00:53:46,090 --> 00:53:49,520
+and the class.
+
+916
+00:53:49,960 --> 00:53:53,950
+So what we want to do is if you open
+the notebook, I think some of the, some
+
+917
+00:53:53,950 --> 00:53:57,940
+of the function
+
+918
+00:53:57,940 --> 00:54:00,520
+I have deleted the code.
+
+919
+00:54:00,740 --> 00:54:02,680
+So your notebook will be different
+from mine.
+
+920
+00:54:03,180 --> 00:54:06,900
+Your job is after the class, you
+fill up what has been missing.
+
+921
+00:54:07,680 --> 00:54:08,500
+It's your job.
+
+922
+00:54:08,660 --> 00:54:09,800
+So let's go over this.
+
+923
+00:54:10,080 --> 00:54:12,900
+When you define a class, you just use the
+class.
+
+924
+00:54:13,120 --> 00:54:14,100
+See the blue one?
+
+925
+00:54:14,380 --> 00:54:16,200
+That means, this is called a keyword.
+
+926
+00:54:16,760 --> 00:54:18,040
+Keyword is reserved.
+
+927
+00:54:18,760 --> 00:54:21,360
+That means when you define some
+function, you define your own variables,
+
+928
+00:54:21,360 --> 00:54:23,960
+do not use
+
+929
+00:54:23,960 --> 00:54:25,500
+the same, exactly the same thing.
+
+930
+00:54:25,780 --> 00:54:29,680
+Because you are messing up with, otherwise
+you're messing up the built in stuff.
+
+931
+00:54:30,120 --> 00:54:32,220
+This is reserved for Python.
+
+932
+00:54:32,220 --> 00:54:32,420
+Okay.
+
+933
+00:54:32,560 --> 00:54:40,940
+Do not use exactly class as your
+function name or your, your variable name.
+
+934
+00:54:41,220 --> 00:54:41,740
+Okay.
+
+935
+00:54:41,860 --> 00:54:45,060
+So now I have a definition for the class
+and the name for that is called a
+
+936
+00:54:45,060 --> 00:54:48,260
+credit card.
+
+937
+00:54:49,320 --> 00:54:50,560
+Now I have a blueprint.
+
+938
+00:54:51,100 --> 00:54:54,660
+Let's say it's, this is the Bank of
+America.
+
+939
+00:54:55,060 --> 00:54:55,580
+Okay.
+
+940
+00:54:55,640 --> 00:54:58,640
+I'm going to produce the credit card
+from Bank of America.
+
+941
+00:54:58,760 --> 00:55:01,220
+And then this thing.
+
+942
+00:55:02,220 --> 00:55:04,980
+It always has a function.
+
+943
+00:55:05,240 --> 00:55:10,400
+This one, this is the definition of
+function, DEF is definition of function.
+
+944
+00:55:10,960 --> 00:55:13,460
+And this is the function, function name.
+
+945
+00:55:14,090 --> 00:55:16,520
+Why do I have underscore, underscore in
+it?
+
+946
+00:55:16,820 --> 00:55:20,150
+Every time when you have underscore,
+underscore, it means you want to hide this
+
+947
+00:55:20,150 --> 00:55:23,480
+thing from
+
+948
+00:55:23,480 --> 00:55:23,880
+users.
+
+949
+00:55:24,660 --> 00:55:25,200
+Okay.
+
+950
+00:55:25,260 --> 00:55:26,040
+You want to hide this.
+
+951
+00:55:26,920 --> 00:55:31,600
+The advantage for hiding this is only,
+let's say.
+
+952
+00:55:31,600 --> 00:55:34,040
+Only advanced users can mess up with this.
+
+953
+00:55:34,460 --> 00:55:37,220
+Do not do it if you do not understand it.
+
+954
+00:55:37,360 --> 00:55:38,440
+So that is the purpose.
+
+955
+00:55:38,720 --> 00:55:41,280
+So regular users do not see it.
+
+956
+00:55:41,360 --> 00:55:43,560
+They will not be able to mess up with
+this.
+
+957
+00:55:44,240 --> 00:55:51,680
+And then why this, this is important for
+this specific function.
+
+958
+00:55:52,740 --> 00:55:55,790
+This will be called, this function will
+be called every time you create a new
+
+959
+00:55:55,790 --> 00:55:58,840
+object.
+
+960
+00:56:00,100 --> 00:56:02,240
+So we will see this later on.
+
+961
+00:56:02,520 --> 00:56:06,720
+And then it has a first parameter.
+
+962
+00:56:07,060 --> 00:56:12,600
+In function call, you always have
+many different parameters.
+
+963
+00:56:13,060 --> 00:56:18,040
+But it is okay if you do not have any
+parameter.
+
+964
+00:56:18,340 --> 00:56:22,280
+So you can have a function that
+is empty like this.
+
+965
+00:56:23,560 --> 00:56:24,580
+That is fine.
+
+966
+00:56:24,680 --> 00:56:25,540
+In Python.
+
+967
+00:56:27,560 --> 00:56:28,260
+In Python.
+
+968
+00:56:28,260 --> 00:56:28,820
+In Python.
+
+969
+00:56:28,820 --> 00:56:30,740
+In Python syntax, it is okay.
+
+970
+00:56:31,780 --> 00:56:33,280
+It doesn't give you error.
+
+971
+00:56:33,660 --> 00:56:37,940
+However, for this specific function,
+init, inside the class, it is required
+
+972
+00:56:37,940 --> 00:56:42,220
+you have
+
+973
+00:56:42,220 --> 00:56:48,620
+a first parameter reserved as a
+reference to the object itself.
+
+974
+00:56:48,920 --> 00:56:52,440
+So you need to have, normally you call it,
+call it itself.
+
+975
+00:56:52,900 --> 00:56:53,500
+Okay.
+
+976
+00:56:53,540 --> 00:56:56,640
+That means, because this is Blueprint.
+
+977
+00:56:56,840 --> 00:56:57,080
+Okay.
+
+978
+00:56:57,080 --> 00:56:57,840
+This is Blueprint.
+
+979
+00:56:58,060 --> 00:57:04,400
+Once you print, create a new credit
+card, self means that concrete real
+
+980
+00:57:04,400 --> 00:57:10,740
+stuff is self.
+
+981
+00:57:11,360 --> 00:57:12,000
+Okay.
+
+982
+00:57:12,240 --> 00:57:15,600
+And because this Blueprint is not the
+real stuff.
+
+983
+00:57:16,060 --> 00:57:20,020
+And then you can have some other stuff to
+plug in your functions.
+
+984
+00:57:20,700 --> 00:57:21,500
+All right.
+
+985
+00:57:21,820 --> 00:57:25,640
+So for functions, anybody okay
+with the idea of function?
+
+986
+00:57:25,820 --> 00:57:27,060
+The function is the same.
+
+987
+00:57:27,060 --> 00:57:30,220
+The function is the same as you have
+learned in algebra.
+
+988
+00:57:30,780 --> 00:57:30,880
+Okay.
+
+989
+00:57:31,220 --> 00:57:32,620
+So you have a function.
+
+990
+00:57:32,800 --> 00:57:34,180
+You have some input.
+
+991
+00:57:34,480 --> 00:57:36,060
+Then you do some calculation.
+
+992
+00:57:36,420 --> 00:57:38,420
+You output something, right?
+
+993
+00:57:48,100 --> 00:57:52,660
+In the case of init, this is something
+reserved.
+
+994
+00:57:52,920 --> 00:57:55,200
+You always have the first parameter as
+self.
+
+995
+00:57:55,200 --> 00:57:57,980
+And then you have other stuff.
+
+996
+00:57:58,280 --> 00:58:02,460
+Here, I would say this will be the name,
+which will be a string, name of the
+
+997
+00:58:02,460 --> 00:58:06,640
+customer.
+
+998
+00:58:06,980 --> 00:58:09,020
+And then I will say the bank.
+
+999
+00:58:09,280 --> 00:58:09,620
+Okay.
+
+1000
+00:58:09,680 --> 00:58:13,080
+In the case of Bank of America, it is
+just the name Bank of America.
+
+1001
+00:58:13,340 --> 00:58:18,320
+Remember what is printed on your credit
+card, your name, your bank, right?
+
+1002
+00:58:18,420 --> 00:58:22,880
+And then the account number, 16
+digit account number.
+
+1003
+00:58:23,000 --> 00:58:23,160
+Okay.
+
+1004
+00:58:23,160 --> 00:58:26,780
+And there is other thing, that is the
+every credit card has a limit, has a
+
+1005
+00:58:26,780 --> 00:58:30,400
+credit limit.
+
+1006
+00:58:30,720 --> 00:58:33,400
+You cannot charge over the limit.
+
+1007
+00:58:33,620 --> 00:58:36,140
+Let's say $2 ,000, okay?
+
+1008
+00:58:36,240 --> 00:58:40,180
+So that's the thing why you create the
+credit card in the very beginning.
+
+1009
+00:58:40,340 --> 00:58:41,460
+You want to have.
+
+1010
+00:58:41,780 --> 00:58:43,560
+So that's the information here.
+
+1011
+00:58:43,680 --> 00:58:48,620
+And then let's forget about the expiration
+and the pin number.
+
+1012
+00:58:48,760 --> 00:58:50,000
+Let's simplify this now.
+
+1013
+00:58:50,180 --> 00:58:50,760
+Questions?
+
+1014
+00:58:57,040 --> 00:58:57,560
+Yes.
+
+1015
+00:58:58,800 --> 00:59:02,260
+To identify the function, this is the
+name of the function.
+
+1016
+00:59:03,160 --> 00:59:03,680
+Yeah.
+
+1017
+00:59:03,800 --> 00:59:09,840
+But when you call this function, you
+do not call underscore, underscore, init.
+
+1018
+00:59:10,860 --> 00:59:13,780
+We will see how you call this function
+later on.
+
+1019
+00:59:13,940 --> 00:59:14,240
+Okay.
+
+1020
+00:59:14,400 --> 00:59:16,320
+This is because this is a special
+function.
+
+1021
+00:59:16,540 --> 00:59:17,560
+It is called automatically.
+
+1022
+00:59:18,040 --> 00:59:19,360
+You do not call it.
+
+1023
+00:59:20,000 --> 00:59:21,480
+Python will call it for you.
+
+1024
+00:59:22,300 --> 00:59:22,860
+Right.
+
+1025
+00:59:22,900 --> 00:59:23,440
+Automatically.
+
+1026
+00:59:23,700 --> 00:59:24,240
+Yeah.
+
+1027
+00:59:24,380 --> 00:59:27,830
+So, now, once you have this, what you do
+is, because you are creating a new
+
+1028
+00:59:27,830 --> 00:59:31,280
+credit card,
+
+1029
+00:59:31,540 --> 00:59:33,560
+that credit card is the real thing.
+
+1030
+00:59:33,660 --> 00:59:34,360
+This is blueprint.
+
+1031
+00:59:34,900 --> 00:59:38,340
+That real thing is, has a reference
+called self.
+
+1032
+00:59:40,060 --> 00:59:46,500
+Now, in this case, the name is the
+attribute of the credit card.
+
+1033
+00:59:47,180 --> 00:59:47,740
+The.
+
+1034
+00:59:47,740 --> 00:59:51,820
+The bank is attribute of the credit card.
+
+1035
+00:59:51,960 --> 00:59:53,260
+The account number is attribute.
+
+1036
+00:59:53,620 --> 00:59:58,240
+So what you do is you define the customer
+name, the bank, account, limit, and the
+
+1037
+00:59:58,240 --> 01:00:02,860
+balance,
+
+1038
+01:00:02,940 --> 01:00:04,440
+everything as attributes.
+
+1039
+01:00:06,280 --> 01:00:07,200
+Attached to self.
+
+1040
+01:00:07,360 --> 01:00:10,580
+Remember, self is the real credit card.
+
+1041
+01:00:10,660 --> 01:00:15,560
+Once you create the real credit card, it's
+referenced as self.
+
+1042
+01:00:16,440 --> 01:00:17,720
+So, this is the real credit card.
+
+1043
+01:00:18,640 --> 01:00:23,300
+Again, when I use underscore, it
+means this is internal thing.
+
+1044
+01:00:23,400 --> 01:00:26,860
+I do not want my customer to modify by
+himself.
+
+1045
+01:00:27,460 --> 01:00:30,350
+See, if you really have a credit card,
+you bank does not allow user to modify the
+
+1046
+01:00:30,350 --> 01:00:33,240
+name
+
+1047
+01:00:34,120 --> 01:00:35,220
+or the account number.
+
+1048
+01:00:35,440 --> 01:00:36,540
+You cannot do it.
+
+1049
+01:00:36,720 --> 01:00:37,320
+All right.
+
+1050
+01:00:37,630 --> 01:00:41,640
+So, we use underscore as a way to
+represent this action.
+
+1051
+01:00:41,920 --> 01:00:42,440
+Okay.
+
+1052
+01:00:43,540 --> 01:00:44,080
+Yeah.
+
+1053
+01:00:44,140 --> 01:00:44,760
+You hide this.
+
+1054
+01:00:45,680 --> 01:00:46,460
+And then.
+
+1055
+01:00:46,460 --> 01:00:49,680
+But in the beginning, you have zero
+balance.
+
+1056
+01:00:49,960 --> 01:00:50,960
+So that is this.
+
+1057
+01:00:51,180 --> 01:00:58,360
+And then, what you do is let
+me let's first ignore the remaining part.
+
+1058
+01:00:58,620 --> 01:00:59,360
+Run this.
+
+1059
+01:00:59,560 --> 01:01:03,220
+Now, everybody, if you have the
+notebook open, run this cell.
+
+1060
+01:01:03,760 --> 01:01:04,700
+Run this cell.
+
+1061
+01:01:04,880 --> 01:01:10,420
+And then, once you have this, and what you
+do is you can do this.
+
+1062
+01:01:10,620 --> 01:01:13,580
+You create a new object.
+
+1063
+01:01:14,020 --> 01:01:15,500
+This new object is.
+
+1064
+01:01:16,460 --> 01:01:16,700
+Okay.
+
+1065
+01:01:16,700 --> 01:01:17,280
+This is the name.
+
+1066
+01:01:17,420 --> 01:01:17,600
+Okay.
+
+1067
+01:01:17,700 --> 01:01:19,300
+Class name is credit card.
+
+1068
+01:01:19,400 --> 01:01:19,520
+Right?
+
+1069
+01:01:19,800 --> 01:01:25,100
+Put the name of the class and like
+calling a function for this.
+
+1070
+01:01:25,460 --> 01:01:30,920
+Put this as the parameter, which is the
+name bank.
+
+1071
+01:01:31,180 --> 01:01:31,660
+Let's see.
+
+1072
+01:01:32,100 --> 01:01:34,400
+Bank of America.
+
+1073
+01:01:35,580 --> 01:01:37,760
+And then, let's see.
+
+1074
+01:01:38,580 --> 01:01:41,420
+You should have 16 numbers.
+
+1075
+01:01:41,720 --> 01:01:43,600
+And then, you put the limit.
+
+1076
+01:01:43,860 --> 01:01:44,280
+So.
+
+1077
+01:01:44,280 --> 01:01:49,020
+Once you do that, and you can print out
+what is CC.
+
+1078
+01:01:51,220 --> 01:01:53,120
+So, this is called assign.
+
+1079
+01:01:54,000 --> 01:01:55,480
+We do not say equal.
+
+1080
+01:01:55,780 --> 01:02:00,280
+If you say equal, it is prone to get
+errors for your understanding.
+
+1081
+01:02:02,100 --> 01:02:08,200
+Some students are confused by assigning
+to the right -hand side.
+
+1082
+01:02:08,540 --> 01:02:13,980
+When you say assign, it means I have
+something on the left-hand side.
+
+1083
+01:02:13,980 --> 01:02:19,060
+I want to put what I have on
+the right-hand side to my left-hand side.
+
+1084
+01:02:19,340 --> 01:02:19,720
+Okay.
+
+1085
+01:02:19,940 --> 01:02:23,260
+Always read this from right to left.
+
+1086
+01:02:23,800 --> 01:02:27,900
+So, it means call this function.
+
+1087
+01:02:28,340 --> 01:02:30,160
+In this case, it is class.
+
+1088
+01:02:30,340 --> 01:02:31,180
+It is not a function.
+
+1089
+01:02:31,720 --> 01:02:34,020
+Call this class create object.
+
+1090
+01:02:35,540 --> 01:02:36,720
+Now you have object.
+
+1091
+01:02:37,360 --> 01:02:38,280
+This is real.
+
+1092
+01:02:39,040 --> 01:02:41,300
+It is a real credit card.
+
+1093
+01:02:41,620 --> 01:02:42,620
+It has name.
+
+1094
+01:02:42,620 --> 01:02:43,860
+It has limit.
+
+1095
+01:02:44,200 --> 01:02:45,960
+It has account number.
+
+1096
+01:02:46,560 --> 01:02:48,840
+And then, assign it to CC.
+
+1097
+01:02:49,760 --> 01:02:53,060
+So, this CC, when you print out, it is
+this.
+
+1098
+01:02:53,200 --> 01:02:55,920
+It is in the main, which is your program.
+
+1099
+01:02:56,140 --> 01:02:59,480
+The object of the whole program called
+main.
+
+1100
+01:02:59,720 --> 01:03:05,500
+And inside main, there is a credit card
+at this memory position.
+
+1101
+01:03:06,360 --> 01:03:07,900
+In some memory position.
+
+1102
+01:03:08,920 --> 01:03:10,680
+Python knows how to get there.
+
+1103
+01:03:10,820 --> 01:03:12,480
+You don't need to know that.
+
+1104
+01:03:12,480 --> 01:03:13,160
+Okay.
+
+1105
+01:03:13,280 --> 01:03:15,840
+It is just something set in your memory.
+
+1106
+01:03:16,420 --> 01:03:19,940
+So, when I shut down my computer,
+let's see this.
+
+1107
+01:03:20,300 --> 01:03:24,300
+If you go over here, close this, then
+it's gone.
+
+1108
+01:03:24,680 --> 01:03:25,580
+Everything is gone.
+
+1109
+01:03:25,720 --> 01:03:27,920
+And because this is in the memory, and
+it's gone.
+
+1110
+01:03:28,080 --> 01:03:29,440
+You do not have access to it.
+
+1111
+01:03:29,740 --> 01:03:32,340
+Unless you save this in disk.
+
+1112
+01:03:33,580 --> 01:03:35,580
+And by the way, one thing.
+
+1113
+01:03:35,800 --> 01:03:37,300
+So, go here.
+
+1114
+01:03:37,500 --> 01:03:37,980
+Runtime.
+
+1115
+01:03:38,680 --> 01:03:41,380
+Runtime allows you to interrupt.
+
+1116
+01:03:41,380 --> 01:03:45,040
+And allows you to disconnect.
+
+1117
+01:03:46,320 --> 01:03:48,900
+So, why do you do the disconnect?
+
+1118
+01:03:49,240 --> 01:03:53,700
+When you finish using this notebook, just
+disconnect this.
+
+1119
+01:03:53,940 --> 01:04:02,600
+The reason is everybody has limited hours
+to use the free notebook from Google.
+
+1120
+01:04:03,340 --> 01:04:06,940
+If you use up for today, then you
+cannot use anymore.
+
+1121
+01:04:08,680 --> 01:04:10,460
+Tomorrow, you will have another.
+
+1122
+01:04:10,460 --> 01:04:11,000
+Let's see.
+
+1123
+01:04:11,120 --> 01:04:11,860
+Three hours.
+
+1124
+01:04:12,040 --> 01:04:13,420
+Everybody has three hours every day.
+
+1125
+01:04:13,760 --> 01:04:16,840
+So, if you finish, just close it.
+
+1126
+01:04:17,020 --> 01:04:17,720
+Do not use.
+
+1127
+01:04:18,260 --> 01:04:19,400
+Let it running.
+
+1128
+01:04:21,600 --> 01:04:23,780
+Use up your quota.
+
+1129
+01:04:24,060 --> 01:04:25,540
+Do not let it running.
+
+1130
+01:04:25,860 --> 01:04:30,100
+And if you close this tab, it also closes.
+
+1131
+01:04:30,700 --> 01:04:31,300
+Okay.
+
+1132
+01:04:32,060 --> 01:04:34,220
+But that will take some time.
+
+1133
+01:04:34,260 --> 01:04:35,140
+Not immediately.
+
+1134
+01:04:35,680 --> 01:04:39,020
+And that is the way you create object.
+
+1135
+01:04:39,360 --> 01:04:40,440
+And as I said.
+
+1136
+01:04:40,440 --> 01:04:41,820
+Everything is object.
+
+1137
+01:04:42,100 --> 01:04:47,160
+If you type object, that's the top object
+for everything.
+
+1138
+01:04:47,760 --> 01:04:50,560
+It is internal object.
+
+1139
+01:04:50,940 --> 01:04:51,580
+Okay.
+
+1140
+01:04:51,680 --> 01:04:55,120
+And then we define something as a
+function.
+
+1141
+01:04:55,280 --> 01:04:56,400
+Now, I define a function.
+
+1142
+01:04:56,580 --> 01:04:59,380
+This function in the class is called
+method.
+
+1143
+01:05:00,100 --> 01:05:01,640
+Because why it is called method?
+
+1144
+01:05:01,820 --> 01:05:03,400
+It is like this.
+
+1145
+01:05:03,600 --> 01:05:04,720
+You have object.
+
+1146
+01:05:05,300 --> 01:05:07,020
+Now, these are the method.
+
+1147
+01:05:07,520 --> 01:05:09,700
+Because once you push.
+
+1148
+01:05:09,700 --> 01:05:11,180
+Some action happens.
+
+1149
+01:05:11,700 --> 01:05:12,340
+All right.
+
+1150
+01:05:12,360 --> 01:05:13,280
+So, that's the same.
+
+1151
+01:05:13,760 --> 01:05:15,580
+When I push this button.
+
+1152
+01:05:16,100 --> 01:05:18,700
+It is going to have something is going to
+happen.
+
+1153
+01:05:18,900 --> 01:05:23,100
+So, in this case, what I want to do is
+when I push this button.
+
+1154
+01:05:23,240 --> 01:05:26,020
+What I want is give me the name of the
+customer.
+
+1155
+01:05:27,200 --> 01:05:31,100
+So, dot underscore customer gave
+me the name of the customer.
+
+1156
+01:05:31,300 --> 01:05:32,840
+So, that what you return.
+
+1157
+01:05:33,120 --> 01:05:35,380
+That is why you call the function.
+
+1158
+01:05:35,480 --> 01:05:36,000
+It will return.
+
+1159
+01:05:37,600 --> 01:05:39,400
+One thing I didn't mention before.
+
+1160
+01:05:39,400 --> 01:05:41,560
+In the example is this.
+
+1161
+01:05:41,960 --> 01:05:45,840
+This is internally called as I said.
+
+1162
+01:05:46,300 --> 01:05:48,100
+When does this call?
+
+1163
+01:05:48,380 --> 01:05:51,240
+See, if you have this line.
+
+1164
+01:05:52,140 --> 01:05:55,720
+Class name followed by the parentheses.
+
+1165
+01:05:57,240 --> 01:06:01,140
+It will call the underscore, underscore
+init function.
+
+1166
+01:06:01,940 --> 01:06:03,400
+It will call this function.
+
+1167
+01:06:04,000 --> 01:06:06,300
+When this function has been called.
+
+1168
+01:06:07,040 --> 01:06:09,180
+First thing is create.
+
+1169
+01:06:09,400 --> 01:06:10,520
+It an object.
+
+1170
+01:06:11,220 --> 01:06:13,280
+And assign it as self.
+
+1171
+01:06:14,440 --> 01:06:15,420
+And then.
+
+1172
+01:06:16,340 --> 01:06:20,400
+This is the first parameter when
+you create this.
+
+1173
+01:06:20,500 --> 01:06:21,900
+See, the first parameter.
+
+1174
+01:06:22,240 --> 01:06:23,320
+John Doe.
+
+1175
+01:06:23,960 --> 01:06:25,180
+It's not self.
+
+1176
+01:06:26,120 --> 01:06:30,000
+This thing is defined as the second.
+
+1177
+01:06:30,660 --> 01:06:31,380
+Okay.
+
+1178
+01:06:31,440 --> 01:06:33,860
+Let me stress this again.
+
+1179
+01:06:34,380 --> 01:06:36,020
+When you call a function.
+
+1180
+01:06:37,440 --> 01:06:38,620
+What happens?
+
+1181
+01:06:46,360 --> 01:06:48,500
+So, when you call a function.
+
+1182
+01:06:48,680 --> 01:06:51,960
+You have a class.
+
+1183
+01:06:52,340 --> 01:06:52,620
+Okay.
+
+1184
+01:06:52,680 --> 01:06:53,340
+You have a class.
+
+1185
+01:06:53,440 --> 01:06:54,220
+Which is Blueprint.
+
+1186
+01:06:55,340 --> 01:06:56,400
+Inside the class.
+
+1187
+01:06:56,940 --> 01:06:59,220
+You have this function.
+
+1188
+01:07:01,500 --> 01:07:02,900
+That's a special function.
+
+1189
+01:07:04,640 --> 01:07:05,480
+And now.
+
+1190
+01:07:06,140 --> 01:07:07,600
+This is a credit card.
+
+1191
+01:07:07,600 --> 01:07:08,740
+Credit card.
+
+1192
+01:07:13,620 --> 01:07:14,380
+Plus.
+
+1193
+01:07:16,080 --> 01:07:17,580
+Now I call this.
+
+1194
+01:07:20,080 --> 01:07:21,260
+Credit card.
+
+1195
+01:07:27,500 --> 01:07:29,100
+I call this function.
+
+1196
+01:07:29,780 --> 01:07:30,540
+By.
+
+1197
+01:07:31,440 --> 01:07:33,460
+Let's see the customer name.
+
+1198
+01:07:34,040 --> 01:07:36,420
+And the bank account limit.
+
+1199
+01:07:36,820 --> 01:07:37,580
+Okay.
+
+1200
+01:07:37,580 --> 01:07:39,100
+When I call this.
+
+1201
+01:07:39,260 --> 01:07:42,140
+When I create new credit card.
+
+1202
+01:07:42,280 --> 01:07:42,760
+From this.
+
+1203
+01:07:42,980 --> 01:07:43,640
+Okay.
+
+1204
+01:07:43,740 --> 01:07:45,500
+What happens is.
+
+1205
+01:07:46,000 --> 01:07:47,820
+After Python see this.
+
+1206
+01:07:49,020 --> 01:07:50,200
+See this line.
+
+1207
+01:07:51,260 --> 01:07:54,840
+It will first go over the reference of
+this.
+
+1208
+01:07:56,860 --> 01:07:57,560
+Class.
+
+1209
+01:07:58,720 --> 01:08:01,240
+And find out what is this.
+
+1210
+01:08:02,700 --> 01:08:03,700
+And then.
+
+1211
+01:08:04,300 --> 01:08:06,380
+Create a real object.
+
+1212
+01:08:06,660 --> 01:08:07,560
+Let's see the real object.
+
+1213
+01:08:07,560 --> 01:08:08,520
+Is this.
+
+1214
+01:08:09,260 --> 01:08:10,220
+Credit card.
+
+1215
+01:08:10,940 --> 01:08:11,500
+Okay.
+
+1216
+01:08:11,900 --> 01:08:13,180
+Create a credit card.
+
+1217
+01:08:13,420 --> 01:08:14,500
+That's a real credit card.
+
+1218
+01:08:15,020 --> 01:08:15,760
+But for now.
+
+1219
+01:08:15,900 --> 01:08:16,820
+It doesn't have a name.
+
+1220
+01:08:16,980 --> 01:08:18,480
+Doesn't have an account number yet.
+
+1221
+01:08:18,940 --> 01:08:20,020
+It's the plastic.
+
+1222
+01:08:21,100 --> 01:08:21,660
+Now.
+
+1223
+01:08:22,160 --> 01:08:23,440
+Go over here.
+
+1224
+01:08:23,760 --> 01:08:24,960
+Put this thing.
+
+1225
+01:08:27,180 --> 01:08:28,200
+As self.
+
+1226
+01:08:29,720 --> 01:08:30,980
+That's the first step.
+
+1227
+01:08:32,100 --> 01:08:32,900
+Create it.
+
+1228
+01:08:33,560 --> 01:08:34,120
+And.
+
+1229
+01:08:35,220 --> 01:08:36,720
+Reference this as self.
+
+1230
+01:08:37,400 --> 01:08:38,320
+And then.
+
+1231
+01:08:38,800 --> 01:08:40,460
+Now you call this function.
+
+1232
+01:08:41,460 --> 01:08:43,280
+Next step is call this function.
+
+1233
+01:08:44,160 --> 01:08:45,920
+Because this function says.
+
+1234
+01:08:46,320 --> 01:08:48,280
+First parameter is self.
+
+1235
+01:08:49,140 --> 01:08:50,740
+So you have to have.
+
+1236
+01:08:51,540 --> 01:08:53,460
+Something called self.
+
+1237
+01:08:54,060 --> 01:08:54,660
+First.
+
+1238
+01:08:54,820 --> 01:08:56,340
+Then you call this function.
+
+1239
+01:08:57,400 --> 01:08:58,000
+So.
+
+1240
+01:08:58,100 --> 01:09:01,700
+That self for now is the blank plastic
+stuff.
+
+1241
+01:09:02,820 --> 01:09:04,380
+And you put this.
+
+1242
+01:09:04,520 --> 01:09:05,880
+Put it here as self.
+
+1243
+01:09:05,880 --> 01:09:08,040
+And then you put other things.
+
+1244
+01:09:08,160 --> 01:09:09,160
+Other than name.
+
+1245
+01:09:09,160 --> 01:09:10,040
+Account number.
+
+1246
+01:09:10,180 --> 01:09:10,360
+Bank.
+
+1247
+01:09:10,740 --> 01:09:11,340
+Account number.
+
+1248
+01:09:11,420 --> 01:09:11,700
+Limit.
+
+1249
+01:09:11,860 --> 01:09:13,500
+And once you have that.
+
+1250
+01:09:13,680 --> 01:09:15,100
+It will use the dot.
+
+1251
+01:09:15,240 --> 01:09:15,880
+Something dot.
+
+1252
+01:09:15,960 --> 01:09:16,480
+Something dot.
+
+1253
+01:09:16,560 --> 01:09:16,800
+Something.
+
+1254
+01:09:17,460 --> 01:09:19,020
+To attach to that.
+
+1255
+01:09:19,100 --> 01:09:19,300
+That.
+
+1256
+01:09:19,300 --> 01:09:20,220
+That means this.
+
+1257
+01:09:20,520 --> 01:09:21,080
+Create.
+
+1258
+01:09:21,420 --> 01:09:21,980
+Create.
+
+1259
+01:09:22,620 --> 01:09:22,900
+Something.
+
+1260
+01:09:22,960 --> 01:09:23,940
+On your credit card.
+
+1261
+01:09:24,840 --> 01:09:26,700
+So that's the whole idea of the.
+
+1262
+01:09:27,040 --> 01:09:28,020
+Class and object.
+
+1263
+01:09:28,580 --> 01:09:30,040
+Just remember now.
+
+1264
+01:09:30,340 --> 01:09:30,880
+Okay.
+
+1265
+01:09:31,820 --> 01:09:32,700
+This thing.
+
+1266
+01:09:33,520 --> 01:09:34,460
+That's the blueprint.
+
+1267
+01:09:35,200 --> 01:09:36,280
+This thing.
+
+1268
+01:09:36,660 --> 01:09:39,240
+After you call the init function.
+
+1269
+01:09:39,540 --> 01:09:41,620
+It gave you a real credit card.
+
+1270
+01:09:41,800 --> 01:09:42,820
+It is real stuff.
+
+1271
+01:09:43,000 --> 01:09:44,540
+It has the name and everything else.
+
+1272
+01:09:44,840 --> 01:09:45,400
+Okay.
+
+1273
+01:09:45,520 --> 01:09:46,860
+So that is the way.
+
+1274
+01:09:48,160 --> 01:09:48,760
+This.
+
+1275
+01:09:49,520 --> 01:09:50,120
+Work.
+
+1276
+01:09:50,380 --> 01:09:50,920
+And then.
+
+1277
+01:09:51,380 --> 01:09:53,520
+We are going to have some other things.
+
+1278
+01:09:53,720 --> 01:09:54,880
+We have.
+
+1279
+01:09:56,100 --> 01:09:57,020
+Function called.
+
+1280
+01:09:58,040 --> 01:09:58,640
+Get.
+
+1281
+01:09:59,900 --> 01:10:00,500
+Get.
+
+1282
+01:10:01,460 --> 01:10:02,060
+Customer.
+
+1283
+01:10:02,500 --> 01:10:03,740
+And this function.
+
+1284
+01:10:03,940 --> 01:10:04,440
+See here.
+
+1285
+01:10:04,460 --> 01:10:04,740
+Now.
+
+1286
+01:10:05,280 --> 01:10:07,020
+It has only self.
+
+1287
+01:10:08,060 --> 01:10:09,720
+It doesn't have anything else.
+
+1288
+01:10:10,220 --> 01:10:11,980
+So how do you call this function.
+
+1289
+01:10:12,220 --> 01:10:13,640
+When you call this function now.
+
+1290
+01:10:16,580 --> 01:10:18,040
+Everybody follow me.
+
+1291
+01:10:19,200 --> 01:10:20,340
+CC dot.
+
+1292
+01:10:21,700 --> 01:10:23,000
+Then you get.
+
+1293
+01:10:23,860 --> 01:10:24,460
+Customer.
+
+1294
+01:10:25,340 --> 01:10:26,060
+All right.
+
+1295
+01:10:26,080 --> 01:10:27,160
+That's the way you call it.
+
+1296
+01:10:28,100 --> 01:10:30,000
+You do not need to put self.
+
+1297
+01:10:31,300 --> 01:10:32,720
+Where is self now.
+
+1298
+01:10:32,840 --> 01:10:33,840
+Self is here.
+
+1299
+01:10:33,920 --> 01:10:34,100
+See.
+
+1300
+01:10:34,460 --> 01:10:35,480
+CC is self.
+
+1301
+01:10:37,340 --> 01:10:39,400
+So everybody understand the logic.
+
+1302
+01:10:40,480 --> 01:10:42,320
+When you call this function.
+
+1303
+01:10:42,440 --> 01:10:42,700
+Get.
+
+1304
+01:10:42,800 --> 01:10:43,220
+Customer.
+
+1305
+01:10:44,180 --> 01:10:46,500
+It is actually calling this function.
+
+1306
+01:10:46,780 --> 01:10:47,160
+However.
+
+1307
+01:10:47,800 --> 01:10:51,700
+The self is now attached to CC.
+
+1308
+01:10:52,040 --> 01:10:54,560
+You do not need to put anything here.
+
+1309
+01:10:54,660 --> 01:10:55,500
+Just put empty.
+
+1310
+01:10:56,560 --> 01:10:57,500
+And then.
+
+1311
+01:10:57,820 --> 01:10:59,240
+It will give you.
+
+1312
+01:10:59,340 --> 01:11:00,220
+John Doe.
+
+1313
+01:11:02,780 --> 01:11:03,420
+Okay.
+
+1314
+01:11:03,420 --> 01:11:05,140
+That is what we have here.
+
+1315
+01:11:05,320 --> 01:11:05,920
+See here.
+
+1316
+01:11:07,320 --> 01:11:07,920
+Everybody.
+
+1317
+01:11:08,180 --> 01:11:08,800
+Get this.
+
+1318
+01:11:10,320 --> 01:11:10,920
+Okay.
+
+1319
+01:11:10,940 --> 01:11:11,560
+That's the way.
+
+1320
+01:11:12,160 --> 01:11:12,840
+It works.
+
+1321
+01:11:13,120 --> 01:11:13,260
+And.
+
+1322
+01:11:13,380 --> 01:11:13,880
+Now.
+
+1323
+01:11:14,200 --> 01:11:14,800
+This.
+
+1324
+01:11:14,940 --> 01:11:15,540
+This is.
+
+1325
+01:11:15,880 --> 01:11:16,940
+This is a.
+
+1326
+01:11:17,320 --> 01:11:17,920
+Object.
+
+1327
+01:11:18,260 --> 01:11:19,460
+CC is object.
+
+1328
+01:11:21,200 --> 01:11:21,800
+Yes.
+
+1329
+01:11:25,980 --> 01:11:26,580
+Right.
+
+1330
+01:11:30,540 --> 01:11:30,900
+Yes.
+
+1331
+01:11:30,900 --> 01:11:31,020
+Yes.
+
+1332
+01:11:32,020 --> 01:11:32,540
+Okay.
+
+1333
+01:11:32,620 --> 01:11:33,700
+Let me repeat this again.
+
+1334
+01:11:35,540 --> 01:11:36,620
+This is Blueprint.
+
+1335
+01:11:38,220 --> 01:11:39,260
+This is Blueprint.
+
+1336
+01:11:39,640 --> 01:11:40,700
+From the Blueprint.
+
+1337
+01:11:40,900 --> 01:11:42,840
+You want to create a real credit card.
+
+1338
+01:11:43,120 --> 01:11:44,040
+How do you do it?
+
+1339
+01:11:45,240 --> 01:11:47,460
+Just write down the same class name.
+
+1340
+01:11:47,680 --> 01:11:48,900
+Followed by the parentheses.
+
+1341
+01:11:50,020 --> 01:11:50,540
+Then.
+
+1342
+01:11:50,620 --> 01:11:54,240
+You put in all the required parameters for
+this class.
+
+1343
+01:11:54,480 --> 01:11:55,480
+In this case.
+
+1344
+01:11:55,520 --> 01:11:57,520
+Is everything except of self.
+
+1345
+01:11:58,200 --> 01:11:58,720
+So.
+
+1346
+01:11:58,760 --> 01:11:59,120
+Now.
+
+1347
+01:11:59,120 --> 01:12:00,860
+First thing is.
+
+1348
+01:12:01,020 --> 01:12:01,800
+Custom name.
+
+1349
+01:12:02,300 --> 01:12:03,480
+That's John Doe.
+
+1350
+01:12:03,940 --> 01:12:05,080
+Bank of America.
+
+1351
+01:12:05,400 --> 01:12:06,740
+And account number.
+
+1352
+01:12:06,860 --> 01:12:08,340
+And 1000 limit.
+
+1353
+01:12:08,860 --> 01:12:09,460
+And then.
+
+1354
+01:12:09,820 --> 01:12:10,820
+After that.
+
+1355
+01:12:10,960 --> 01:12:13,160
+A new credit card has been produced.
+
+1356
+01:12:14,060 --> 01:12:14,400
+So.
+
+1357
+01:12:14,820 --> 01:12:15,720
+Let's call it CC.
+
+1358
+01:12:17,040 --> 01:12:18,380
+Once you have that.
+
+1359
+01:12:18,580 --> 01:12:19,100
+CC.
+
+1360
+01:12:19,620 --> 01:12:20,300
+Then.
+
+1361
+01:12:20,460 --> 01:12:21,060
+Now.
+
+1362
+01:12:21,260 --> 01:12:23,680
+Everything defined as the.
+
+1363
+01:12:24,280 --> 01:12:24,960
+See.
+
+1364
+01:12:25,100 --> 01:12:26,700
+I have indentation here.
+
+1365
+01:12:27,060 --> 01:12:28,060
+Class indent.
+
+1366
+01:12:28,060 --> 01:12:31,900
+Everything defined inside the class.
+
+1367
+01:12:32,180 --> 01:12:33,940
+Now is attribute.
+
+1368
+01:12:34,320 --> 01:12:35,280
+It's like attribute.
+
+1369
+01:12:35,560 --> 01:12:35,760
+But.
+
+1370
+01:12:35,900 --> 01:12:37,980
+Actually this attribute is a function.
+
+1371
+01:12:38,320 --> 01:12:39,840
+We call this method.
+
+1372
+01:12:40,620 --> 01:12:42,720
+And the way to call that is.
+
+1373
+01:12:43,060 --> 01:12:43,780
+Use.
+
+1374
+01:12:44,240 --> 01:12:44,900
+CC.
+
+1375
+01:12:45,620 --> 01:12:46,340
+CC.
+
+1376
+01:12:46,720 --> 01:12:48,440
+And once you call this.
+
+1377
+01:12:48,700 --> 01:12:51,460
+This CC will plug into self.
+
+1378
+01:12:51,720 --> 01:12:52,140
+So.
+
+1379
+01:12:52,180 --> 01:12:52,780
+When you call this.
+
+1380
+01:12:52,860 --> 01:12:53,720
+Get customer.
+
+1381
+01:12:54,320 --> 01:12:55,480
+This CC.
+
+1382
+01:12:55,700 --> 01:12:56,880
+Will jump.
+
+1383
+01:12:57,400 --> 01:12:57,880
+Here.
+
+1384
+01:12:59,740 --> 01:13:01,740
+Once you have CC jumped here.
+
+1385
+01:13:02,200 --> 01:13:02,680
+Then.
+
+1386
+01:13:02,940 --> 01:13:03,420
+Because.
+
+1387
+01:13:03,800 --> 01:13:04,280
+Previously.
+
+1388
+01:13:04,600 --> 01:13:06,500
+You attached John Doe to CC.
+
+1389
+01:13:07,460 --> 01:13:07,940
+Now.
+
+1390
+01:13:07,940 --> 01:13:08,820
+You can get it.
+
+1391
+01:13:08,840 --> 01:13:09,620
+John Doe out.
+
+1392
+01:13:11,180 --> 01:13:11,660
+Everybody.
+
+1393
+01:13:11,900 --> 01:13:12,680
+Get the idea.
+
+1394
+01:13:13,980 --> 01:13:14,460
+So.
+
+1395
+01:13:14,500 --> 01:13:15,320
+That's the way it works.
+
+1396
+01:13:15,920 --> 01:13:16,300
+Now.
+
+1397
+01:13:16,440 --> 01:13:17,100
+And then.
+
+1398
+01:13:17,160 --> 01:13:18,260
+You can get the other thing.
+
+1399
+01:13:18,360 --> 01:13:18,800
+Get bank.
+
+1400
+01:13:19,000 --> 01:13:19,440
+Get account.
+
+1401
+01:13:20,340 --> 01:13:20,820
+And.
+
+1402
+01:13:21,420 --> 01:13:21,900
+Now.
+
+1403
+01:13:22,000 --> 01:13:22,760
+A little bit more.
+
+1404
+01:13:23,240 --> 01:13:24,280
+Complicated is charge.
+
+1405
+01:13:24,820 --> 01:13:25,300
+So.
+
+1406
+01:13:25,300 --> 01:13:25,380
+Now.
+
+1407
+01:13:25,380 --> 01:13:26,280
+You have a credit card.
+
+1408
+01:13:26,440 --> 01:13:27,200
+You swipe.
+
+1409
+01:13:27,800 --> 01:13:28,160
+Now.
+
+1410
+01:13:28,220 --> 01:13:29,000
+You charge this.
+
+1411
+01:13:29,220 --> 01:13:29,400
+But.
+
+1412
+01:13:29,480 --> 01:13:30,740
+You do not want to just charge.
+
+1413
+01:13:31,860 --> 01:13:32,220
+Arbitrarily.
+
+1414
+01:13:32,380 --> 01:13:32,700
+First.
+
+1415
+01:13:32,800 --> 01:13:33,560
+You want to make sure.
+
+1416
+01:13:33,620 --> 01:13:34,400
+You do not over.
+
+1417
+01:13:35,080 --> 01:13:35,760
+Your limit.
+
+1418
+01:13:36,520 --> 01:13:36,880
+So.
+
+1419
+01:13:36,960 --> 01:13:37,680
+If you want to.
+
+1420
+01:13:38,340 --> 01:13:39,820
+If you want to buy a laptop.
+
+1421
+01:13:39,900 --> 01:13:41,080
+With 1000 limit.
+
+1422
+01:13:41,300 --> 01:13:41,660
+Probably.
+
+1423
+01:13:41,700 --> 01:13:42,820
+You will not be able to do it.
+
+1424
+01:13:43,360 --> 01:13:43,940
+And then.
+
+1425
+01:13:44,200 --> 01:13:44,560
+So.
+
+1426
+01:13:45,140 --> 01:13:45,860
+The first.
+
+1427
+01:13:45,900 --> 01:13:46,100
+Thing.
+
+1428
+01:13:46,600 --> 01:13:47,580
+The first thing.
+
+1429
+01:13:47,660 --> 01:13:48,680
+You want to do is.
+
+1430
+01:13:48,800 --> 01:13:49,700
+You want to compare.
+
+1431
+01:13:52,000 --> 01:13:52,360
+That.
+
+1432
+01:13:52,440 --> 01:13:53,240
+When you charge.
+
+1433
+01:13:53,240 --> 01:13:53,920
+With the price.
+
+1434
+01:13:54,960 --> 01:13:55,980
+You already have.
+
+1435
+01:13:56,060 --> 01:13:56,520
+Some balance.
+
+1436
+01:13:56,960 --> 01:13:58,080
+In the very beginning.
+
+1437
+01:13:58,140 --> 01:13:58,500
+It is zero.
+
+1438
+01:13:58,920 --> 01:13:59,600
+And then.
+
+1439
+01:13:59,640 --> 01:14:00,180
+After you.
+
+1440
+01:14:00,280 --> 01:14:00,660
+You.
+
+1441
+01:14:01,040 --> 01:14:01,520
+You.
+
+1442
+01:14:01,620 --> 01:14:02,060
+Charge.
+
+1443
+01:14:02,320 --> 01:14:03,240
+Many times.
+
+1444
+01:14:03,460 --> 01:14:03,560
+It.
+
+1445
+01:14:03,760 --> 01:14:04,240
+Accrued.
+
+1446
+01:14:04,900 --> 01:14:05,740
+The balance.
+
+1447
+01:14:06,020 --> 01:14:06,720
+And then.
+
+1448
+01:14:06,740 --> 01:14:07,220
+The total.
+
+1449
+01:14:07,680 --> 01:14:08,160
+Total.
+
+1450
+01:14:08,280 --> 01:14:08,880
+New balance.
+
+1451
+01:14:09,060 --> 01:14:09,540
+Will be.
+
+1452
+01:14:09,580 --> 01:14:10,060
+The price.
+
+1453
+01:14:10,120 --> 01:14:10,460
+Plus.
+
+1454
+01:14:10,480 --> 01:14:11,560
+The existing balance.
+
+1455
+01:14:11,920 --> 01:14:12,820
+You make sure.
+
+1456
+01:14:13,220 --> 01:14:13,700
+If.
+
+1457
+01:14:13,800 --> 01:14:14,520
+This is.
+
+1458
+01:14:14,700 --> 01:14:15,640
+Over the limit.
+
+1459
+01:14:16,240 --> 01:14:16,720
+You.
+
+1460
+01:14:16,840 --> 01:14:17,840
+Are not going to.
+
+1461
+01:14:18,060 --> 01:14:18,540
+Succeed.
+
+1462
+01:14:18,720 --> 01:14:19,340
+In charging.
+
+1463
+01:14:19,340 --> 01:14:19,700
+This.
+
+1464
+01:14:20,780 --> 01:14:21,240
+Otherwise.
+
+1465
+01:14:21,340 --> 01:14:22,000
+It is.
+
+1466
+01:14:22,040 --> 01:14:22,500
+Succeed.
+
+1467
+01:14:22,660 --> 01:14:23,800
+You are going to.
+
+1468
+01:14:24,140 --> 01:14:25,080
+Add the price.
+
+1469
+01:14:25,220 --> 01:14:25,920
+To your balance.
+
+1470
+01:14:26,280 --> 01:14:26,740
+And.
+
+1471
+01:14:26,840 --> 01:14:27,380
+You return.
+
+1472
+01:14:27,660 --> 01:14:28,440
+The Boolean.
+
+1473
+01:14:28,660 --> 01:14:29,420
+In this case.
+
+1474
+01:14:29,480 --> 01:14:29,800
+Is true.
+
+1475
+01:14:30,000 --> 01:14:30,420
+Okay.
+
+1476
+01:14:30,900 --> 01:14:31,360
+Success.
+
+1477
+01:14:32,280 --> 01:14:32,740
+And.
+
+1478
+01:14:32,800 --> 01:14:33,160
+Then.
+
+1479
+01:14:33,420 --> 01:14:33,880
+See.
+
+1480
+01:14:34,000 --> 01:14:34,740
+If you want to make.
+
+1481
+01:14:34,760 --> 01:14:35,220
+A payment.
+
+1482
+01:14:36,120 --> 01:14:36,580
+This.
+
+1483
+01:14:36,880 --> 01:14:37,400
+You use.
+
+1484
+01:14:37,480 --> 01:14:37,900
+The plus.
+
+1485
+01:14:38,260 --> 01:14:38,720
+Because.
+
+1486
+01:14:38,780 --> 01:14:39,440
+Every time.
+
+1487
+01:14:39,500 --> 01:14:40,040
+You add.
+
+1488
+01:14:40,200 --> 01:14:41,120
+The balance.
+
+1489
+01:14:41,240 --> 01:14:41,740
+You charge.
+
+1490
+01:14:41,800 --> 01:14:42,000
+It.
+
+1491
+01:14:42,260 --> 01:14:42,720
+But.
+
+1492
+01:14:42,720 --> 01:14:43,360
+If you want.
+
+1493
+01:14:43,480 --> 01:14:43,980
+To pay out.
+
+1494
+01:14:44,000 --> 01:14:44,240
+Your.
+
+1495
+01:14:44,560 --> 01:14:45,440
+Credit card.
+
+1496
+01:14:45,800 --> 01:14:46,620
+You subtract.
+
+1497
+01:14:46,860 --> 01:14:47,520
+The balance.
+
+1498
+01:14:47,680 --> 01:14:47,900
+Right.
+
+1499
+01:14:48,080 --> 01:14:48,600
+So.
+
+1500
+01:14:48,620 --> 01:14:49,240
+If you pay.
+
+1501
+01:14:49,540 --> 01:14:50,320
+If you pay.
+
+1502
+01:14:50,460 --> 01:14:50,940
+Some amount.
+
+1503
+01:14:51,220 --> 01:14:51,940
+You subtract.
+
+1504
+01:14:52,200 --> 01:14:52,740
+The amount.
+
+1505
+01:14:52,900 --> 01:14:53,100
+So.
+
+1506
+01:14:53,160 --> 01:14:53,460
+When you.
+
+1507
+01:14:53,500 --> 01:14:54,120
+Have this.
+
+1508
+01:14:54,320 --> 01:14:54,860
+That means.
+
+1509
+01:14:55,280 --> 01:14:55,860
+That means.
+
+1510
+01:14:56,060 --> 01:14:56,520
+You have.
+
+1511
+01:14:57,620 --> 01:14:58,520
+This thing.
+
+1512
+01:14:59,820 --> 01:15:00,600
+Let me.
+
+1513
+01:15:00,640 --> 01:15:01,200
+Write down.
+
+1514
+01:15:01,440 --> 01:15:01,960
+Something.
+
+1515
+01:15:04,100 --> 01:15:04,880
+It will be.
+
+1516
+01:15:04,960 --> 01:15:05,320
+This.
+
+1517
+01:15:06,680 --> 01:15:07,200
+Amount.
+
+1518
+01:15:07,460 --> 01:15:07,980
+Okay.
+
+1519
+01:15:08,020 --> 01:15:08,340
+That's.
+
+1520
+01:15:08,400 --> 01:15:08,860
+Exactly.
+
+1521
+01:15:08,860 --> 01:15:09,240
+The same.
+
+1522
+01:15:09,460 --> 01:15:09,680
+As this.
+
+1523
+01:15:10,140 --> 01:15:10,780
+You have.
+
+1524
+01:15:11,840 --> 01:15:12,200
+Minus.
+
+1525
+01:15:12,540 --> 01:15:12,900
+Equal.
+
+1526
+01:15:12,920 --> 01:15:13,460
+That is.
+
+1527
+01:15:13,520 --> 01:15:13,820
+This.
+
+1528
+01:15:14,440 --> 01:15:15,160
+It is doing.
+
+1529
+01:15:15,940 --> 01:15:16,300
+Subtracting.
+
+1530
+01:15:16,300 --> 01:15:16,720
+On itself.
+
+1531
+01:15:17,140 --> 01:15:17,500
+Okay.
+
+1532
+01:15:17,640 --> 01:15:18,260
+That is.
+
+1533
+01:15:18,340 --> 01:15:18,620
+The.
+
+1534
+01:15:18,840 --> 01:15:19,540
+The first.
+
+1535
+01:15:19,620 --> 01:15:19,800
+Thing.
+
+1536
+01:15:19,940 --> 01:15:20,240
+We are.
+
+1537
+01:15:20,320 --> 01:15:20,600
+Doing.
+
+1538
+01:15:20,660 --> 01:15:21,020
+For.
+
+1539
+01:15:21,040 --> 01:15:21,260
+The.
+
+1540
+01:15:21,660 --> 01:15:22,020
+Class.
+
+1541
+01:15:22,280 --> 01:15:22,500
+And.
+
+1542
+01:15:22,540 --> 01:15:22,880
+Object.
+
+1543
+01:15:23,420 --> 01:15:23,780
+And.
+
+1544
+01:15:23,820 --> 01:15:24,160
+Make.
+
+1545
+01:15:24,240 --> 01:15:24,400
+Sure.
+
+1546
+01:15:24,420 --> 01:15:24,600
+You.
+
+1547
+01:15:24,640 --> 01:15:24,860
+Want.
+
+1548
+01:15:24,940 --> 01:15:25,040
+To.
+
+1549
+01:15:25,400 --> 01:15:25,760
+After.
+
+1550
+01:15:25,900 --> 01:15:25,980
+The.
+
+1551
+01:15:39,440 --> 01:15:39,760
+Skills.
+
+1552
+01:15:39,780 --> 01:15:40,020
+And.
+
+1553
+01:15:40,480 --> 01:15:40,800
+The.
+
+1554
+01:15:41,680 --> 01:15:42,000
+Concept.
+
+1555
+01:15:42,640 --> 01:15:42,960
+Okay.
+
+1556
+01:15:42,980 --> 01:15:43,560
+We will stop.
+
+1557
+01:15:43,640 --> 01:15:43,880
+Here.
+
+1558
+01:15:43,960 --> 01:15:44,120
+Today.
+
+1559
+01:15:46,520 --> 01:15:46,840
+Thank.
+
+1560
+01:15:46,940 --> 01:15:47,020
+You.
+
